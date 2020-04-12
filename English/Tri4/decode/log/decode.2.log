@@ -1,0 +1,26 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri4a/graph/words.txt exp/tri4a/final.mdl exp/tri4a/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/2/utt2spk scp:data/test/split4/2/cmvn.scp scp:data/test/split4/2/feats.scp ark:- | splice-feats  ark:- ark:- | transform-feats exp/tri4a/final.mat ark:- ark:- |" "ark:|gzip -c > exp/tri4a/decode/lat.2.gz" 
+# Started at Sun Mar  8 05:48:50 CET 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri4a/graph/words.txt exp/tri4a/final.mdl exp/tri4a/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/2/utt2spk scp:data/test/split4/2/cmvn.scp scp:data/test/split4/2/feats.scp ark:- | splice-feats  ark:- ark:- | transform-feats exp/tri4a/final.mat ark:- ark:- |' 'ark:|gzip -c > exp/tri4a/decode/lat.2.gz' 
+splice-feats ark:- ark:- 
+transform-feats exp/tri4a/final.mat ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split4/2/utt2spk scp:data/test/split4/2/cmvn.scp scp:data/test/split4/2/feats.scp ark:- 
+237-126133-0000 HERE SHE WITH DAY COMFORTED ENSUED AMONG THE LOVELY PLANTS AND RICH EXOTICS REJOYCING THE HIDE OF ALTERNATIVE GARDEN WHOSE ITS POLLY'S FIRST RAPTUROUS ENTRANCE HAD TAKEN OR IN TO HIS GOOD GRACES OR ALL TIME 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 237-126133-0000 is -4.69274 over 1327 frames.
+237-126133-0001 EVERY CHANCE SHE COULD STEEL AFTER PRACTICE HOURS WERE OF HER AND AFTER THE CLAMOROUS DEMANDS OF THE BOYS UPON HER TIME WORTHILY SATISFIED WAS SEIZED OF FLY ON A WINGS OF THE WE AND THE THE PLOUGH ITS 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 237-126133-0001 is -4.56647 over 1195 frames.
+237-126133-0002 ANDEAN SAID MISSUS BUT ME YOU MUST BE KIND IT A HAD AND ADDED THINK WHAT A WOULD BE FOR ONE IT YOU TO BE AWAY FROM HOME EVEN AMONG THAN 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 237-126133-0002 is -4.77687 over 890 frames.
+237-126133-0003 SOMEHOW OF ALL THAT DAYS WHEN THE HOME FEELING WITH THE STRONGEST THIS DAY SEEMED IT THAT SHE COULD BEAR AT NO LONGER 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 237-126133-0003 is -4.45186 over 654 frames.
+237-126133-0004 IT SHE THAT ONLY FEET BRONZY FOR JUST ONE MOMENT 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 237-126133-0004 is -4.63343 over 328 frames.
+237-126133-0005 I'LL SHE'S ALI THAT THE PIANO SAID THAN SHE MUST BE THAN NOW SOMEWHERE AND AND SOMEBODY LAUGHED 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 237-126133-0005 is -4.44731 over 649 frames.
+237-126133-0006 ACT IS BUT BUNDLE OPENED SUDDENLY AND OUT POPPED BRONZY 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 237-126133-0006 is -4.17853 over 613 frames.
+237-126133-0007 BUT POLLY COULDN'T SPEAK AND IT JASPER HADN'T POTTERED JUST IN TIME SHE WOULD OF TUMBLED OF OR BACK WOULD FROM THE STOOL FRONDS THE AND ALL 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 237-126133-0007 is -4.64094 over 866 frames.
+237-126133-0008 ASKED BRONZY WITH HER THE THE FACE CLOSE THE POLLY'S OWN 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 237-126133-0008 is -4.51487 over 385 frames.
+237-126133-0009 NOW HEELS DAY CRIED AN STAY POLLY WON'T YOU 

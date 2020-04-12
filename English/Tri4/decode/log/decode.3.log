@@ -1,0 +1,19 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri4a/graph/words.txt exp/tri4a/final.mdl exp/tri4a/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/3/utt2spk scp:data/test/split4/3/cmvn.scp scp:data/test/split4/3/feats.scp ark:- | splice-feats  ark:- ark:- | transform-feats exp/tri4a/final.mat ark:- ark:- |" "ark:|gzip -c > exp/tri4a/decode/lat.3.gz" 
+# Started at Sun Mar  8 05:48:50 CET 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri4a/graph/words.txt exp/tri4a/final.mdl exp/tri4a/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/3/utt2spk scp:data/test/split4/3/cmvn.scp scp:data/test/split4/3/feats.scp ark:- | splice-feats  ark:- ark:- | transform-feats exp/tri4a/final.mat ark:- ark:- |' 'ark:|gzip -c > exp/tri4a/decode/lat.3.gz' 
+splice-feats ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split4/3/utt2spk scp:data/test/split4/3/cmvn.scp scp:data/test/split4/3/feats.scp ark:- 
+transform-feats exp/tri4a/final.mat ark:- ark:- 
+4970-29093-0000 ILL NEVER DAY GET OUT OF THE ASTOR LIBRARY 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 4970-29093-0000 is -4.32409 over 301 frames.
+4970-29093-0001 TO THE YOUNG AMERICAN HERE ELSEWHERE THE PATSY FORTUNE ARE INNUMERABLE AND ALL UP BEEN THERE'S INVITATION IN THE AIR AND SUCCESS IN ALL HIS BITE HORIZON 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 4970-29093-0001 is -4.27791 over 1190 frames.
+4970-29093-0002 HE HAS NO TRADITIONS TO BIND CAN OR GUIDE HAND AND IS IN PULSE IS TO BREAK AWAY IF AND THE OCCUPATION IF FATHER HAS FOLLOWED AND MAKING THE WAY FOR HIMSELF 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 4970-29093-0002 is -4.70467 over 1071 frames.
+4970-29093-0003 THE MODEST FELLOW WHAT AND WHITE TO AIMED PRESSED UPON AND FOR SOMEWHERE THE EIGHTEEN MEANT IT NIGHT BE FOR A BUCK BIRTH THE THE SKILFUL MANAGEMENT AT SOME GREAT NEWSPAPER OR FOR SON DARING EXPEDITION LIKE THAT OF THE TO IT STRAIN OR DOCTOR CAME 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 4970-29093-0003 is -4.62296 over 1534 frames.
+4970-29093-0004 HE WAS ON ABLE TO DECIDE EXACTLY WHICH BE 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 4970-29093-0004 is -4.45184 over 373 frames.
+4970-29093-0005 SOMETIMES HE THOUGHT HE WITH BY TO STAND ANY CAN SPACIOUS PULPIT AND HUMBLY PREACH THE GOSPEL EPOCH CONTENTS AND AND EVEN CROSSES NINE THAT IT WOULD THE NOBLE THE GIVEN SELL TO IN MISSIONARY LIE DESCENDED ADDED READ CAN OR THE DATE PALM GROWS AND IN NIGHTINGALES VOICE IS IN KING AND THE BULBUL SAYINGS ON THE OUT NIGHTS 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 4970-29093-0005 is -4.60028 over 2214 frames.

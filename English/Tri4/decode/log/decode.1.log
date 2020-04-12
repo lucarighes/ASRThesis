@@ -1,0 +1,39 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri4a/graph/words.txt exp/tri4a/final.mdl exp/tri4a/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/1/utt2spk scp:data/test/split4/1/cmvn.scp scp:data/test/split4/1/feats.scp ark:- | splice-feats  ark:- ark:- | transform-feats exp/tri4a/final.mat ark:- ark:- |" "ark:|gzip -c > exp/tri4a/decode/lat.1.gz" 
+# Started at Sun Mar  8 05:48:50 CET 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri4a/graph/words.txt exp/tri4a/final.mdl exp/tri4a/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/1/utt2spk scp:data/test/split4/1/cmvn.scp scp:data/test/split4/1/feats.scp ark:- | splice-feats  ark:- ark:- | transform-feats exp/tri4a/final.mat ark:- ark:- |' 'ark:|gzip -c > exp/tri4a/decode/lat.1.gz' 
+splice-feats ark:- ark:- 
+transform-feats exp/tri4a/final.mat ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split4/1/utt2spk scp:data/test/split4/1/cmvn.scp scp:data/test/split4/1/feats.scp ark:- 
+1089-134686-0000 HE HOPED THEIR WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MOCKING PIECES TO BE LADLE ABOUT AND THICK PEPPERED FLOWER FATTENED SAUCE 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0000 is -4.25064 over 1042 frames.
+1089-134686-0001 STUFF OF INTO YOU HIS BELLY COUNSELLED HIM 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0001 is -4.11328 over 326 frames.
+1089-134686-0002 AFTER EARLY NIGHTFALL THE ALONE LAMPS WOULD LIGHT UP HERE AND THEIR OF OF SQUALID QUARTER OF THE BROTHELS 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0002 is -4.05676 over 661 frames.
+1089-134686-0003 FELLOW BUT A IN A GOAT IN YOUR MIND 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0003 is -4.38964 over 266 frames.
+1089-134686-0004 NUMBER IT DEN FRESHEN NELLY IS WAITING ON YOU COULD NIGHT HUSBAND 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0004 is -3.85207 over 520 frames.
+1089-134686-0005 THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0005 is -3.73284 over 962 frames.
+1089-134686-0006 THE DULL LIGHT TO FELL MORE FAINTLY UPON THE PAGE WHERE ON ANOTHER EQUATION BEGAN TWON'T FOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0006 is -3.96751 over 1054 frames.
+1089-134686-0007 A COLD LUCID IN DIFFERENCE A REIGNED IN HIS SOUL 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0007 is -3.82249 over 426 frames.
+1089-134686-0008 THE CHAOS IN WHICH HIS ARDOR EXTINGUISHED ITSELF WAS OF COLD IN DIFFERENT KNOWLEDGE OF HIMSELF 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0008 is -3.95007 over 671 frames.
+1089-134686-0009 AT MOST BY IN ALL MOODS GIVEN TO A BEGGAR OR WHOSE BLESSING HE FLOOD FROM HE MIGHT HOPE WEARILY TO WHEN FOR HIMSELF SOME MEASURE OF ACTUAL GRACE 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0009 is -3.95492 over 1056 frames.
+1089-134686-0010 WHILE THOU ANAS I DECLARE YOU HAVE AHEAD THEM SO HAS MY STICK 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0010 is -4.02369 over 439 frames.
+1089-134686-0011 ON SATURDAY MORNINGS WHEN THE SO DOUBT HE MET AND THE CHAPEL TO RECITE THE LITTLE OFFICE HIS PLACE WAS OF CUSHIONED KNEELING DESK AT THE RIGHT OF THE ALTAR FROM WHICH HE LED HIS WHEN OF BOYS THROUGH THE RESPONSES 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0011 is -4.13349 over 1243 frames.
+1089-134686-0012 HER EYES SEEM TO REGARD HIM WITH MILD PITY HER HOLINESS A STRANGE LIGHT BLOWING FAINTLY UPON HER FRAIL FLESH DID NOT HUMILIATE THE SOONER WHO APPROACHED HER 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0012 is -3.84977 over 1162 frames.
+1089-134686-0013 IF EVER HE WAS IMPELLED TO CAST SOON FROM HIM AND TO REPENT THE IMPULSE THAT MOVED HIM WAS THE WISH TO BE HER NIGHT 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0013 is -4.00518 over 790 frames.
+1089-134686-0014 HE CHARTA THINK HOW IT COULD BE 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0014 is -4.22608 over 221 frames.
+1089-134686-0015 BUT THE DUSK DEEPENING IN THE SCHOOL ROOM COVERED OVER HIS THOUGHTS THE BILL RANG 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 1089-134686-0015 is -3.92995 over 580 frames.

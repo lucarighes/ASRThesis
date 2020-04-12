@@ -1,0 +1,5 @@
+# cat exp/tri4a/decode/scoring/13.tra | utils/int2sym.pl -f 2- exp/tri4a/graph/words.txt | sed s:\<UNK\>::g | compute-wer --text --mode=present ark:exp/tri4a/decode/scoring/test_filt.txt ark,p:- >& exp/tri4a/decode/wer_13 
+# Started at Sun Mar  8 01:18:19 CET 2020
+#
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sun Mar  8 01:18:20 CET 2020, elapsed time 1 seconds
