@@ -1,0 +1,5 @@
+# cat exp/tri3c/decode/scoring/17.tra | utils/int2sym.pl -f 2- exp/tri3c/graph/words.txt | sed s:\<UNK\>::g | compute-wer --text --mode=present ark:exp/tri3c/decode/scoring/test_filt.txt ark,p:- >& exp/tri3c/decode/wer_17 
+# Started at Sun Apr 12 01:22:31 CEST 2020
+#
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sun Apr 12 01:22:32 CEST 2020, elapsed time 1 seconds
