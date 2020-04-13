@@ -1,0 +1,10 @@
+# gmm-rescore-lattice exp/tri4b/final.mdl "ark:gunzip -c transcription/lat.tmp.1.gz|" ark:transcription/splice-transform-feats2.ark ark:- | lattice-determinize-pruned --acoustic-scale=0.083333 --beam=13.0 ark:- "ark:|gzip -c > transcription/lat.2.gz" && rm transcription/lat.tmp.1.gz 
+# Started at Mon Apr 13 17:04:59 CEST 2020
+#
+gmm-rescore-lattice exp/tri4b/final.mdl 'ark:gunzip -c transcription/lat.tmp.1.gz|' ark:transcription/splice-transform-feats2.ark ark:- 
+lattice-determinize-pruned --acoustic-scale=0.083333 --beam=13.0 ark:- 'ark:|gzip -c > transcription/lat.2.gz' 
+LOG (gmm-rescore-lattice[5.5.641~2-79319]:main():gmm-rescore-lattice.cc:103) Done 1 lattices with errors on 0, #frames is 1042
+LOG (lattice-determinize-pruned[5.5.641~2-79319]:main():lattice-determinize-pruned.cc:159) Average input-lattice depth (measured at at state level) is 5.619, output depth is 3.02207, over 1042 frames  (average num-frames = 1042).
+LOG (lattice-determinize-pruned[5.5.641~2-79319]:main():lattice-determinize-pruned.cc:164) Done 1 lattices, determinization finished earlier than specified by the beam (or output was empty) on 0 of these.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Apr 13 17:04:59 CEST 2020, elapsed time 0 seconds

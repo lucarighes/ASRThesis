@@ -1,0 +1,8 @@
+# transform-feats --utt2spk=ark:transcription/utt2spk ark:transcription/pre_trans.1 ark:transcription/splice-transform-feats0.ark ark:transcription/splice-transform-feats1.ark 
+# Started at Mon Apr 13 17:04:57 CEST 2020
+#
+transform-feats --utt2spk=ark:transcription/utt2spk ark:transcription/pre_trans.1 ark:transcription/splice-transform-feats0.ark ark:transcription/splice-transform-feats1.ark 
+LOG (transform-feats[5.5.641~2-79319]:main():transform-feats.cc:158) Overall average logdet is 5.10503 over 1042 frames.
+LOG (transform-feats[5.5.641~2-79319]:main():transform-feats.cc:161) Applied transform to 1 utterances; 0 had errors.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Apr 13 17:04:58 CEST 2020, elapsed time 1 seconds
