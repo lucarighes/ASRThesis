@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp/tri4b/decode2/scoring/test_filt.txt ark,p:- 
+%WER 23.29 [ 12244 / 52576, 2067 ins, 963 del, 9214 sub ]
+%SER 91.15 [ 2388 / 2620 ]
+Scored 2620 sentences, 0 not present in hyp.

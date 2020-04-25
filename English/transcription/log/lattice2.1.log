@@ -1,0 +1,10 @@
+# lattice-best-path --word-symbol-table=exp/tri4b/graph/words.txt "ark:gunzip -c transcription/lat.2.gz|" ark,t:transcription/one-best.tra 
+# Started at Mon Apr 13 17:04:59 CEST 2020
+#
+lattice-best-path --word-symbol-table=exp/tri4b/graph/words.txt 'ark:gunzip -c transcription/lat.2.gz|' ark,t:transcription/one-best.tra 
+LOG (lattice-best-path[5.5.641~2-79319]:main():lattice-best-path.cc:99) For utterance test, best cost 333.116 + 63397.7 = 63730.8 over 1042 frames.
+test HE HOPE TO THEIR WOULD BE STEW FOR DINNER TURNIPS AND CARROTS SEND BRUISED POTATOES AND FACT MUTTON PIECES TO BE LADLED OUT CAN THICK PEPPERED FLOUR FATTENED SAUCE 
+LOG (lattice-best-path[5.5.641~2-79319]:main():lattice-best-path.cc:124) Overall cost per frame is 61.162 = 0.319689 [graph] + 60.8423 [acoustic] over 1042 frames.
+LOG (lattice-best-path[5.5.641~2-79319]:main():lattice-best-path.cc:128) Done 1 lattices, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Apr 13 17:05:00 CEST 2020, elapsed time 1 seconds

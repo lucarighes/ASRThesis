@@ -1,0 +1,20 @@
+# gunzip -c transcription/lat.1.gz | lattice-to-post --acoustic-scale=0.083333 ark:- ark:- | weight-silence-post 0.01 1:2:3:4:5:6:7:8:9 exp/tri4b/final.mdl ark:- ark:- | gmm-post-to-gpost exp/tri4b/final.mdl ark:transcription/splice-transform-feats0.ark ark:- ark:- | gmm-est-fmllr-gpost --fmllr-update-type=full --spk2utt=ark:transcription/spk2utt exp/tri4b/final.mdl ark:transcription/splice-transform-feats0.ark ark,s,cs:- ark:transcription/pre_trans.1 
+# Started at Mon Apr 13 17:04:57 CEST 2020
+#
+weight-silence-post 0.01 1:2:3:4:5:6:7:8:9 exp/tri4b/final.mdl ark:- ark:- 
+gmm-est-fmllr-gpost --fmllr-update-type=full --spk2utt=ark:transcription/spk2utt exp/tri4b/final.mdl ark:transcription/splice-transform-feats0.ark ark,s,cs:- ark:transcription/pre_trans.1 
+lattice-to-post --acoustic-scale=0.083333 ark:- ark:- 
+gmm-post-to-gpost exp/tri4b/final.mdl ark:transcription/splice-transform-feats0.ark ark:- ark:- 
+LOG (lattice-to-post[5.5.641~2-79319]:main():lattice-to-post.cc:106) Overall average log-like/frame is -4.2256 over 1042 frames.  Average acoustic like/frame is -3.92389
+LOG (lattice-to-post[5.5.641~2-79319]:main():lattice-to-post.cc:110) Done 1 lattices.
+LOG (weight-silence-post[5.5.641~2-79319]:main():weight-silence-post.cc:95) Done 1 posteriors.
+LOG (gmm-post-to-gpost[5.5.641~2-79319]:main():gmm-post-to-gpost.cc:124) Done 1 files, 0 with no posteriors, 0 with other errors.
+LOG (gmm-post-to-gpost[5.5.641~2-79319]:main():gmm-post-to-gpost.cc:128) Overall avg like per frame (Gaussian only) = -48.2939 over 931.036 frames.
+LOG (gmm-post-to-gpost[5.5.641~2-79319]:main():gmm-post-to-gpost.cc:131) Done converting post to gpost
+LOG (gmm-est-fmllr-gpost[5.5.641~2-79319]:ComputeFmllrMatrixDiagGmmFull():fmllr-diag-gmm.cc:262) fMLLR objf improvement is 6.63459 per frame over 931.036 frames.
+LOG (gmm-est-fmllr-gpost[5.5.641~2-79319]:main():gmm-est-fmllr-gpost.cc:141) For speaker 1, auxf-impr from fMLLR is 6.63459, over 931.036 frames.
+
+LOG (gmm-est-fmllr-gpost[5.5.641~2-79319]:main():gmm-est-fmllr-gpost.cc:186) Done 1 files, 0 with no gposts, 0 with other errors.
+LOG (gmm-est-fmllr-gpost[5.5.641~2-79319]:main():gmm-est-fmllr-gpost.cc:188) Overall fMLLR auxf impr per frame is 6.63459 over 931.036 frames.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Apr 13 17:04:57 CEST 2020, elapsed time 0 seconds

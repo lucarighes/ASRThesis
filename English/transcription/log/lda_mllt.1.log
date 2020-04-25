@@ -1,0 +1,11 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri4b/graph/words.txt exp/tri4b/final.mdl exp/tri4b/graph/HCLG.fst ark:transcription/splice-transform-feats0.ark "ark:|gzip -c > transcription/lat.1.gz" 
+# Started at Mon Apr 13 17:04:55 CEST 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri4b/graph/words.txt exp/tri4b/final.mdl exp/tri4b/graph/HCLG.fst ark:transcription/splice-transform-feats0.ark 'ark:|gzip -c > transcription/lat.1.gz' 
+test HE HOPED THEIR WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FACT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOWER FATTENED SAUCE 
+LOG (gmm-latgen-faster[5.5.641~2-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance test is -4.22946 over 1042 frames.
+LOG (gmm-latgen-faster[5.5.641~2-79319]:main():gmm-latgen-faster.cc:176) Time taken 1.48187s: real-time factor assuming 100 frames/sec is 0.142214
+LOG (gmm-latgen-faster[5.5.641~2-79319]:main():gmm-latgen-faster.cc:179) Done 1 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.641~2-79319]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -4.22946 over 1042 frames.
+# Accounting: time=2 threads=1
+# Ended (code 0) at Mon Apr 13 17:04:57 CEST 2020, elapsed time 2 seconds

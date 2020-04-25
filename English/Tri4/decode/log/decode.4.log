@@ -1,0 +1,25 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri4a/graph/words.txt exp/tri4a/final.mdl exp/tri4a/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/4/utt2spk scp:data/test/split4/4/cmvn.scp scp:data/test/split4/4/feats.scp ark:- | splice-feats  ark:- ark:- | transform-feats exp/tri4a/final.mat ark:- ark:- |" "ark:|gzip -c > exp/tri4a/decode/lat.4.gz" 
+# Started at Sun Mar  8 05:48:50 CET 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri4a/graph/words.txt exp/tri4a/final.mdl exp/tri4a/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/4/utt2spk scp:data/test/split4/4/cmvn.scp scp:data/test/split4/4/feats.scp ark:- | splice-feats  ark:- ark:- | transform-feats exp/tri4a/final.mat ark:- ark:- |' 'ark:|gzip -c > exp/tri4a/decode/lat.4.gz' 
+splice-feats ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split4/4/utt2spk scp:data/test/split4/4/cmvn.scp scp:data/test/split4/4/feats.scp ark:- 
+transform-feats exp/tri4a/final.mat ark:- ark:- 
+6930-75918-0000 CONCORD RETURN TO ITS PLACE EMMETS THE TENTS 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6930-75918-0000 is -4.43053 over 349 frames.
+6930-75918-0001 THE ENGLISH THORT IT TO THE FRENCH BASKETS OF FLOWERS OF WHICH THEY HAD MADE UPON COPAL FOR VISION TO GREEK THE ARRIVAL OF THE YOUNG PRINCESS THE FRENCH IN RETURNED INVITED THE ENGLISH TO WAS SUPPER WHICH WAS TO BE GIVEN THE MIXED IT 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6930-75918-0001 is -4.43476 over 1421 frames.
+6930-75918-0002 CONGRATULATIONS WERE POURED HIM UPON THE PRINCESS EVERYWHERE DURING HER JOURNEY 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6930-75918-0002 is -4.41198 over 501 frames.
+6930-75918-0003 FROM THE RESPECT PAID HER ON ALL SIDES SHE SEEMED LIKE A QUEEN AND FROM THE ADORATION WITH WHICH SHE WAS TREATED BY TO OR THREE SHE APPEARED AND OBJECT OF WORSHIP THAT QUEEN MOTHER GAVE THE FRENCH THE MOST AFFECTIONATE RECEPTION FRANCE WAS HER MADE OF COUNTRY A AND SHE HAS SUFFER TO MUCH UNHAPPINESS IN ENGLAND FOR ENGLAND TO HAVE MADE HER FORGIVE FRANCE 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6930-75918-0003 is -4.35531 over 2330 frames.
+6930-75918-0004 SHE TIME HER DAUGHTER THEN BY HER OWN AFFECTION FOR IT THAT LOVE FOR COUNTRY WHERE THE HAVE BOTH BEEN HIS BITTERLY RECEIVED AND WHERE UP BRILLIANT FUTURE OPENED FOR THEM 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6930-75918-0004 is -4.35605 over 1105 frames.
+6930-75918-0005 ACCOUNT HAVE THE ROAN HIMSELF BACK ON HIS SEE LEANING HIS SHOULDERS AGAINST THE PARTITION OF THE TENT AN REMAINED THUS HIS FACE BURIED IN IS HANDS WITH HEAVING CHEST AND RESTLESS LIMBS 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6930-75918-0005 is -4.26589 over 1314 frames.
+6930-75918-0006 THIS HAS INDEED BEEN A HARASSING DAY CONTINUED THE YOUNG MAN HIS EYES FIXED UPON HIS FRIEND 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6930-75918-0006 is -4.14867 over 583 frames.
+6930-75918-0007 YOU'LL BE FRANK WITH ME I ALWAYS AM 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6930-75918-0007 is -4.31927 over 330 frames.
+6930-75918-0008 KING YOUR IMAGINE MY BUCKINGHAM HAS BEEN SO VIOLENT CAN I SUSPECT 
+LOG (gmm-latgen-faster[5.5.641~1-79319]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6930-75918-0008 is -4.37956 over 477 frames.
