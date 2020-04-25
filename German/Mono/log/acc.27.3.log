@@ -1,0 +1,406 @@
+# gmm-acc-stats-ali exp/mono/27.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split4/3/utt2spk scp:data/train/split4/3/cmvn.scp scp:data/train/split4/3/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:gunzip -c exp/mono/ali.3.gz|" exp/mono/27.3.acc 
+# Started at Tue Jan 14 23:34:32 CET 2020
+#
+gmm-acc-stats-ali exp/mono/27.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split4/3/utt2spk scp:data/train/split4/3/cmvn.scp scp:data/train/split4/3/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:gunzip -c exp/mono/ali.3.gz|' exp/mono/27.3.acc 
+apply-cmvn --utt2spk=ark:data/train/split4/3/utt2spk scp:data/train/split4/3/cmvn.scp scp:data/train/split4/3/feats.scp ark:- 
+add-deltas ark:- ark:- 
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance 757cf316-c655-4ff4-8a7b-750f00b18a2f-22055240 avg. like is -100.849 over 1478 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 757cf316-c655-4ff4-8a7b-750f00b18a2f-32150231
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 757cf316-c655-4ff4-8a7b-750f00b18a2f-32150232
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 757cf316-c655-4ff4-8a7b-750f00b18a2f-32150233
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 757cf316-c655-4ff4-8a7b-750f00b18a2f-32150234
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 757cf316-c655-4ff4-8a7b-750f00b18a2f-32150235
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance 757cf316-c655-4ff4-8a7b-750f00b18a2f-34264855 avg. like is -97.9889 over 558 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance 757cf316-c655-4ff4-8a7b-750f00b18a2f-45032365 avg. like is -98.174 over 958 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 757cf316-c655-4ff4-8a7b-750f00b18a2f-53771637
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance 757cf316-c655-4ff4-8a7b-750f00b18a2f-55769820 avg. like is -94.8125 over 658 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance 757cf316-c655-4ff4-8a7b-750f00b18a2f-71718020 avg. like is -100.56 over 1358 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 300 utterances; for utterance 757cf316-c655-4ff4-8a7b-750f00b18a2f-9365495 avg. like is -97.5625 over 858 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 350 utterances; for utterance 77b4ff89-c809-4ef1-8da0-f1792d719c2c-15053280 avg. like is -90.5 over 908 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 400 utterances; for utterance 77b4ff89-c809-4ef1-8da0-f1792d719c2c-2610100 avg. like is -92.8985 over 1588 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 450 utterances; for utterance 77b4ff89-c809-4ef1-8da0-f1792d719c2c-3715410 avg. like is -87.3745 over 628 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 500 utterances; for utterance 77b4ff89-c809-4ef1-8da0-f1792d719c2c-46157240 avg. like is -88.7104 over 828 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 550 utterances; for utterance 77b4ff89-c809-4ef1-8da0-f1792d719c2c-54726230 avg. like is -93.2046 over 1698 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 600 utterances; for utterance 77b4ff89-c809-4ef1-8da0-f1792d719c2c-6837080 avg. like is -87.5676 over 1298 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 650 utterances; for utterance 77e75355-1c13-4a21-bfab-e4798b86a2e4-14864620 avg. like is -96.0673 over 788 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 700 utterances; for utterance 77e75355-1c13-4a21-bfab-e4798b86a2e4-21711690 avg. like is -98.9318 over 958 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 750 utterances; for utterance 77e75355-1c13-4a21-bfab-e4798b86a2e4-29913175 avg. like is -97.7178 over 768 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 800 utterances; for utterance 77e75355-1c13-4a21-bfab-e4798b86a2e4-40012465 avg. like is -96.0672 over 528 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 850 utterances; for utterance 77e75355-1c13-4a21-bfab-e4798b86a2e4-56811730 avg. like is -99.3933 over 1008 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 900 utterances; for utterance 77e75355-1c13-4a21-bfab-e4798b86a2e4-6546435 avg. like is -98.152 over 948 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 950 utterances; for utterance 77e75355-1c13-4a21-bfab-e4798b86a2e4-72228115 avg. like is -96.6533 over 868 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1000 utterances; for utterance 77e75355-1c13-4a21-bfab-e4798b86a2e4-73960740 avg. like is -92.0817 over 328 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1050 utterances; for utterance 78421124-2319-4cf1-b3d3-4f95b3001cee-12144100 avg. like is -97.0903 over 958 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1100 utterances; for utterance 78421124-2319-4cf1-b3d3-4f95b3001cee-21347095 avg. like is -99.2441 over 1078 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1150 utterances; for utterance 78421124-2319-4cf1-b3d3-4f95b3001cee-28524720 avg. like is -97.6699 over 1468 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1200 utterances; for utterance 78421124-2319-4cf1-b3d3-4f95b3001cee-33765955 avg. like is -95.4551 over 498 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1250 utterances; for utterance 78421124-2319-4cf1-b3d3-4f95b3001cee-4269705 avg. like is -91.7696 over 378 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1300 utterances; for utterance 78421124-2319-4cf1-b3d3-4f95b3001cee-56311095 avg. like is -97.8604 over 1288 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1350 utterances; for utterance 78421124-2319-4cf1-b3d3-4f95b3001cee-67940140 avg. like is -97.2294 over 588 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1400 utterances; for utterance 78421124-2319-4cf1-b3d3-4f95b3001cee-73161520 avg. like is -94.8218 over 498 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1450 utterances; for utterance 7aeb8739-28ec-44ca-aacf-5c4c242ba506-17625935 avg. like is -94.6019 over 1378 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1500 utterances; for utterance 7aeb8739-28ec-44ca-aacf-5c4c242ba506-27358820 avg. like is -93.125 over 1088 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1550 utterances; for utterance 7aeb8739-28ec-44ca-aacf-5c4c242ba506-47524465 avg. like is -95.7862 over 668 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1600 utterances; for utterance 7aeb8739-28ec-44ca-aacf-5c4c242ba506-65766315 avg. like is -94.8042 over 1308 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1650 utterances; for utterance 7aeb8739-28ec-44ca-aacf-5c4c242ba506-69821285 avg. like is -94.7069 over 1228 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1700 utterances; for utterance 7aeb8739-28ec-44ca-aacf-5c4c242ba506-761110 avg. like is -90.3377 over 438 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1750 utterances; for utterance 7aeb8739-28ec-44ca-aacf-5c4c242ba506-79867360 avg. like is -88.1822 over 188 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1800 utterances; for utterance 7aeb8739-28ec-44ca-aacf-5c4c242ba506-83143515 avg. like is -83.6312 over 138 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1850 utterances; for utterance 7aeb8739-28ec-44ca-aacf-5c4c242ba506-87355350 avg. like is -86.4538 over 208 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1900 utterances; for utterance 7aeb8739-28ec-44ca-aacf-5c4c242ba506-92741120 avg. like is -87.3782 over 138 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 1950 utterances; for utterance 7ebeb8f6-f2e2-418a-89c5-16b2e4a85cd5-11529168 avg. like is -95.6164 over 1138 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2000 utterances; for utterance 7ebeb8f6-f2e2-418a-89c5-16b2e4a85cd5-20125611 avg. like is -100.015 over 1888 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2050 utterances; for utterance 7ebeb8f6-f2e2-418a-89c5-16b2e4a85cd5-26515883 avg. like is -97.6662 over 1448 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 7ebeb8f6-f2e2-418a-89c5-16b2e4a85cd5-32832256
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 7ebeb8f6-f2e2-418a-89c5-16b2e4a85cd5-32832257
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 7ebeb8f6-f2e2-418a-89c5-16b2e4a85cd5-32832258
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 7ebeb8f6-f2e2-418a-89c5-16b2e4a85cd5-32832259
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2100 utterances; for utterance 7ebeb8f6-f2e2-418a-89c5-16b2e4a85cd5-35040811 avg. like is -98.6615 over 1148 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2150 utterances; for utterance 7ebeb8f6-f2e2-418a-89c5-16b2e4a85cd5-36440273 avg. like is -94.4722 over 638 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2200 utterances; for utterance 7ebeb8f6-f2e2-418a-89c5-16b2e4a85cd5-8849526 avg. like is -100.114 over 2128 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2250 utterances; for utterance 7ff23724-ad3c-4808-9d49-59d1f568e3bc-12559592 avg. like is -105.174 over 413 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2300 utterances; for utterance 7ff23724-ad3c-4808-9d49-59d1f568e3bc-20214622 avg. like is -104.967 over 368 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2350 utterances; for utterance 7ff23724-ad3c-4808-9d49-59d1f568e3bc-26655297 avg. like is -109.232 over 1093 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2400 utterances; for utterance 7ff23724-ad3c-4808-9d49-59d1f568e3bc-32573457 avg. like is -108.414 over 1378 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2450 utterances; for utterance 7ff23724-ad3c-4808-9d49-59d1f568e3bc-42945767 avg. like is -108.284 over 398 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2500 utterances; for utterance 7ff23724-ad3c-4808-9d49-59d1f568e3bc-49640997 avg. like is -111.329 over 1248 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2550 utterances; for utterance 7ff23724-ad3c-4808-9d49-59d1f568e3bc-57610132 avg. like is -109.086 over 1088 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2600 utterances; for utterance 7ff23724-ad3c-4808-9d49-59d1f568e3bc-58752277 avg. like is -108.237 over 898 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2650 utterances; for utterance 80d69bc1-8e5a-4b07-b24b-a77fa69c7865-11431407 avg. like is -108.553 over 893 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2700 utterances; for utterance 80d69bc1-8e5a-4b07-b24b-a77fa69c7865-18866712 avg. like is -109.521 over 1423 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2750 utterances; for utterance 80d69bc1-8e5a-4b07-b24b-a77fa69c7865-28534907 avg. like is -108.946 over 1998 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2800 utterances; for utterance 80d69bc1-8e5a-4b07-b24b-a77fa69c7865-33335002 avg. like is -108.148 over 1298 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2850 utterances; for utterance 80d69bc1-8e5a-4b07-b24b-a77fa69c7865-4863847 avg. like is -106.569 over 943 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2900 utterances; for utterance 80d69bc1-8e5a-4b07-b24b-a77fa69c7865-62463877 avg. like is -108.88 over 1073 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 2950 utterances; for utterance 80d69bc1-8e5a-4b07-b24b-a77fa69c7865-68272462 avg. like is -109.057 over 2293 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3000 utterances; for utterance 80d69bc1-8e5a-4b07-b24b-a77fa69c7865-72836892 avg. like is -107.9 over 563 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3050 utterances; for utterance 80d69bc1-8e5a-4b07-b24b-a77fa69c7865-77630332 avg. like is -108.016 over 1228 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3100 utterances; for utterance 8528f58c-f78b-4c78-b596-ed5a65c2f784-12313575 avg. like is -96.616 over 1028 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3150 utterances; for utterance 8528f58c-f78b-4c78-b596-ed5a65c2f784-2715083 avg. like is -95.4999 over 568 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3200 utterances; for utterance 8528f58c-f78b-4c78-b596-ed5a65c2f784-4465115 avg. like is -95.7345 over 598 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3250 utterances; for utterance 8528f58c-f78b-4c78-b596-ed5a65c2f784-57162868 avg. like is -96.0196 over 1058 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3300 utterances; for utterance 8528f58c-f78b-4c78-b596-ed5a65c2f784-67558600 avg. like is -95.91 over 808 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3350 utterances; for utterance 8528f58c-f78b-4c78-b596-ed5a65c2f784-79211533 avg. like is -95.0613 over 238 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3400 utterances; for utterance 8528f58c-f78b-4c78-b596-ed5a65c2f784-83765085 avg. like is -89.0269 over 198 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3450 utterances; for utterance 8528f58c-f78b-4c78-b596-ed5a65c2f784-87160053 avg. like is -89.7693 over 158 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3500 utterances; for utterance 8528f58c-f78b-4c78-b596-ed5a65c2f784-90810980 avg. like is -87.4529 over 188 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3550 utterances; for utterance 8528f58c-f78b-4c78-b596-ed5a65c2f784-92547153 avg. like is -91.9388 over 238 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3600 utterances; for utterance 8671dd69-1fe3-4e5d-aa21-5779b9e54827-10434870 avg. like is -97.6976 over 588 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3650 utterances; for utterance 8671dd69-1fe3-4e5d-aa21-5779b9e54827-13231075 avg. like is -96.6879 over 938 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3700 utterances; for utterance 8671dd69-1fe3-4e5d-aa21-5779b9e54827-24238200 avg. like is -97.5355 over 1148 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3750 utterances; for utterance 8671dd69-1fe3-4e5d-aa21-5779b9e54827-32847765 avg. like is -97.8306 over 1598 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3800 utterances; for utterance 8671dd69-1fe3-4e5d-aa21-5779b9e54827-36838015 avg. like is -97.6345 over 2928 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3850 utterances; for utterance 8671dd69-1fe3-4e5d-aa21-5779b9e54827-43226470 avg. like is -94.7141 over 628 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3900 utterances; for utterance 8671dd69-1fe3-4e5d-aa21-5779b9e54827-53359000 avg. like is -98.3991 over 1738 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 3950 utterances; for utterance 8671dd69-1fe3-4e5d-aa21-5779b9e54827-68830440 avg. like is -96.8277 over 928 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-10817814
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-10848424
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-12226814
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-12267404
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-15645074
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-16916294
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-18419279
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4000 utterances; for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-18419280 avg. like is -96.9052 over 1108 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-19371779
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-19420674
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-19953629
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-20120359
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-20133474
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-20974034
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-22851984
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-24025574
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-24333019
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-27460844
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-27519729
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-3118309
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-32547434
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-32570619
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-32630779
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-32662819
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4050 utterances; for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-32920983 avg. like is -97.0867 over 1428 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-32920984
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-35015239
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-35048324
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-3610539
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-36742239
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-38534529
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-39232144
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-41525944
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-44268549
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-4563339
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-45767449
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-48064764
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-56056129
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-56148594
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4100 utterances; for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-56563658 avg. like is -97.4449 over 788 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-56563659
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-57350379
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-5761989
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-61114244
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-61665209
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-6359959
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-66526424
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-66770054
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-68365279
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-68657714
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-69710054
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-7110944
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-72460249
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-74256929
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4150 utterances; for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-77117093 avg. like is -96.8374 over 508 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-77117094
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-78018334
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-78641009
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4200 utterances; for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-82619394 avg. like is -126.325 over 198 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-82972349
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-83812384
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-8514614
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4250 utterances; for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-85316190 avg. like is -91.3829 over 188 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-86237009
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-87826579
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-88448104
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-88761354
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4300 utterances; for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-89843928 avg. like is -91.8326 over 258 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-89843929
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4350 utterances; for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-93936611 avg. like is -99.8108 over 198 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 89c1aac7-03d8-46b3-b9a4-ecca80261c95-94843699
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4400 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-10369038 avg. like is -100.148 over 1088 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4450 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-11425598 avg. like is -98.0805 over 698 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4500 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-16218953 avg. like is -98.6115 over 538 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4550 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-18348763 avg. like is -98.9904 over 1088 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4600 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-21060198 avg. like is -101.2 over 2348 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4650 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-27237718 avg. like is -101.251 over 1108 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4700 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-32452133 avg. like is -99.5677 over 1238 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4750 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-35063323 avg. like is -101.184 over 678 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4800 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-43219753 avg. like is -98.0434 over 478 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4850 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-49942893 avg. like is -99.1045 over 1148 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4900 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-5859003 avg. like is -99.2518 over 748 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 4950 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-64538248 avg. like is -101.252 over 1648 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5000 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-69827893 avg. like is -99.6243 over 1038 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5050 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-72732503 avg. like is -98.4661 over 408 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5100 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-75163148 avg. like is -96.0861 over 258 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5150 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-77231173 avg. like is -96.3966 over 198 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5200 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-78721118 avg. like is -91.2729 over 138 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5250 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-80238568 avg. like is -91.7556 over 158 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5300 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-81436513 avg. like is -93.0058 over 178 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5350 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-82856213 avg. like is -95.3688 over 178 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5400 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-83922333 avg. like is -96.0484 over 208 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5450 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-85167413 avg. like is -88.5553 over 138 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5500 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-86430033 avg. like is -92.9539 over 158 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5550 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-87223523 avg. like is -91.4643 over 198 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5600 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-88356478 avg. like is -95.5844 over 138 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5650 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-89562858 avg. like is -92.1487 over 178 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5700 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-90263793 avg. like is -95.5487 over 158 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5750 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-91019733 avg. like is -93.3928 over 198 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5800 utterances; for utterance 8b9f9e73-7d00-41f8-9400-9131267f7d73-91960973 avg. like is -90.6858 over 118 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5850 utterances; for utterance 8d5ea173-9d7f-4a90-a77c-d05319864b4a-11145923 avg. like is -98.9923 over 1518 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 8d5ea173-9d7f-4a90-a77c-d05319864b4a-19267527
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5900 utterances; for utterance 8d5ea173-9d7f-4a90-a77c-d05319864b4a-19267529 avg. like is -86.3644 over 1428 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 5950 utterances; for utterance 8d5ea173-9d7f-4a90-a77c-d05319864b4a-30338824 avg. like is -87.1565 over 928 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6000 utterances; for utterance 8d5ea173-9d7f-4a90-a77c-d05319864b4a-35453289 avg. like is -86.3037 over 698 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6050 utterances; for utterance 8d5ea173-9d7f-4a90-a77c-d05319864b4a-43161169 avg. like is -83.6972 over 368 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6100 utterances; for utterance 8d5ea173-9d7f-4a90-a77c-d05319864b4a-50526889 avg. like is -85.9846 over 648 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6150 utterances; for utterance 8d5ea173-9d7f-4a90-a77c-d05319864b4a-57612669 avg. like is -86.1051 over 1098 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6200 utterances; for utterance 8d5ea173-9d7f-4a90-a77c-d05319864b4a-6256879 avg. like is -84.9786 over 808 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6250 utterances; for utterance 8d5ea173-9d7f-4a90-a77c-d05319864b4a-65431224 avg. like is -87.0382 over 1018 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6300 utterances; for utterance 8d5ea173-9d7f-4a90-a77c-d05319864b4a-9966264 avg. like is -85.2158 over 488 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6350 utterances; for utterance 8ff5bcb0-aecc-46b9-9372-2a73d49f712f-27665366 avg. like is -94.3109 over 1128 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6400 utterances; for utterance 8ff5bcb0-aecc-46b9-9372-2a73d49f712f-29131148 avg. like is -93.4101 over 688 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6450 utterances; for utterance 8ff5bcb0-aecc-46b9-9372-2a73d49f712f-6249537 avg. like is -102.48 over 908 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6500 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-10574949 avg. like is -84.6211 over 488 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6550 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-14655544 avg. like is -88.4164 over 1178 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6600 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-18517754 avg. like is -87.8756 over 778 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6650 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-19747349 avg. like is -87.5934 over 688 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-221996
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-221997
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-222000
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6700 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-27215957 avg. like is -110.121 over 1233 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6750 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-29769327 avg. like is -109.216 over 1243 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6800 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-35238487 avg. like is -109.364 over 1068 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6850 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-40666997 avg. like is -106.669 over 683 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6900 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-4618352 avg. like is -109.617 over 958 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 6950 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-52928392 avg. like is -108.613 over 873 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7000 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-62214827 avg. like is -110.025 over 1088 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7050 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-67550792 avg. like is -105.752 over 808 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7100 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-72070242 avg. like is -104.294 over 748 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7150 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-74918597 avg. like is -106.22 over 1773 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7200 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-78463632 avg. like is -100.171 over 183 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7250 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-79412672 avg. like is -103.575 over 193 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7300 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-80528327 avg. like is -99.2881 over 213 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7350 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-81440172 avg. like is -98.4981 over 188 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7400 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-82068237 avg. like is -90.8931 over 138 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7450 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-83768647 avg. like is -97.0786 over 168 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7500 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-84932562 avg. like is -97.7226 over 213 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7550 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-86647037 avg. like is -92.8224 over 133 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7600 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-87614107 avg. like is -93.3204 over 158 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7650 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-89025947 avg. like is -100.598 over 243 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7700 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-90747172 avg. like is -101.303 over 198 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7750 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-91528177 avg. like is -92.0741 over 143 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7800 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-93421167 avg. like is -98.8503 over 183 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7850 utterances; for utterance 90225a4a-175a-4d3b-8b3e-9f7193518993-95031722 avg. like is -97.1801 over 148 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7900 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-12228052 avg. like is -99.4555 over 658 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 7950 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-18069947 avg. like is -106.42 over 1683 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8000 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-22229087 avg. like is -103.774 over 623 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8050 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-27423077 avg. like is -107.344 over 1108 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8100 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-32818312 avg. like is -105.523 over 1648 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8150 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-4511797 avg. like is -106.898 over 1243 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8200 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-54261022 avg. like is -104.003 over 1073 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8250 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-67223007 avg. like is -102.01 over 833 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8300 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-73127327 avg. like is -99.0654 over 653 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8350 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-78361002 avg. like is -87.3379 over 253 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8400 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-81054582 avg. like is -97.5905 over 188 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8450 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-82911137 avg. like is -98.0406 over 253 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8500 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-84235207 avg. like is -93.4602 over 283 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8550 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-85269207 avg. like is -86.0997 over 293 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8600 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-87463682 avg. like is -98.6617 over 278 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8650 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-88861872 avg. like is -94.8934 over 168 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8700 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-90567712 avg. like is -88.4306 over 233 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8750 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-91959347 avg. like is -87.7569 over 173 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8800 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-93261092 avg. like is -94.5908 over 268 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8850 utterances; for utterance 92a49259-42fb-452e-94d4-bc73f42f1e59-95030702 avg. like is -94.5732 over 163 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8900 utterances; for utterance 96ca5804-428f-4132-951a-faacb032718c-11264953 avg. like is -96.7127 over 748 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 8950 utterances; for utterance 96ca5804-428f-4132-951a-faacb032718c-18355061 avg. like is -101.501 over 1068 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9000 utterances; for utterance 96ca5804-428f-4132-951a-faacb032718c-24864843 avg. like is -96.8706 over 1218 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9050 utterances; for utterance 96ca5804-428f-4132-951a-faacb032718c-3256321 avg. like is -97.9637 over 618 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9100 utterances; for utterance 96ca5804-428f-4132-951a-faacb032718c-44854538 avg. like is -96.4211 over 608 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9150 utterances; for utterance 96ca5804-428f-4132-951a-faacb032718c-54232551 avg. like is -99.9833 over 828 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9200 utterances; for utterance 96ca5804-428f-4132-951a-faacb032718c-9926753 avg. like is -97.3673 over 418 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9250 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-12370309 avg. like is -89.1671 over 868 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9300 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-18059404 avg. like is -88.9027 over 1418 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9350 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-22612544 avg. like is -89.1431 over 1208 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9400 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-27115354 avg. like is -86.7895 over 498 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9450 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-30839344 avg. like is -87.9895 over 938 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9500 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-32916964 avg. like is -88.8512 over 1128 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9550 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-41534374 avg. like is -88.769 over 1458 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9600 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-524984 avg. like is -89.0287 over 1118 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9650 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-6136884 avg. like is -88.8698 over 828 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9700 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-65914754 avg. like is -89.3473 over 1118 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9750 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-70857889 avg. like is -88.3908 over 828 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9800 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-72210454 avg. like is -88.8804 over 978 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9850 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-74918749 avg. like is -89.7111 over 1638 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9900 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-78243284 avg. like is -86.6905 over 198 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 9950 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-79172614 avg. like is -84.7352 over 208 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10000 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-80543889 avg. like is -86.2279 over 198 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10050 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-82271039 avg. like is -86.6626 over 208 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10100 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-82872094 avg. like is -84.0419 over 178 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10150 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-84944939 avg. like is -88.4008 over 178 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10200 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-87123034 avg. like is -85.6469 over 138 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10250 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-88068434 avg. like is -83.7966 over 228 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10300 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-89673704 avg. like is -86.5822 over 188 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10350 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-91636859 avg. like is -87.2835 over 208 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10400 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-92850619 avg. like is -85.2381 over 158 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10450 utterances; for utterance 992828f6-7229-4dbb-911f-82f1c6e52463-94142769 avg. like is -84.1605 over 198 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10500 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-11343399 avg. like is -84.5554 over 698 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10550 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-14022259 avg. like is -83.6443 over 688 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10600 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-18053794 avg. like is -84.4584 over 1648 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10650 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-20257954 avg. like is -82.0914 over 378 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10700 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-2463534 avg. like is -85.6222 over 1128 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10750 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-30562999 avg. like is -85.3846 over 1298 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10800 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-36263909 avg. like is -86.37 over 698 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10850 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-45151059 avg. like is -85.5777 over 1618 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10900 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-49954959 avg. like is -84.7895 over 1238 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 10950 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-58945684 avg. like is -84.7984 over 698 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11000 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-65966109 avg. like is -86.017 over 1178 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11050 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-70941079 avg. like is -86.4724 over 988 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11100 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-72860184 avg. like is -83.6027 over 528 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11150 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-78864164 avg. like is -82.6998 over 158 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11200 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-79749629 avg. like is -79.2662 over 158 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11250 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-81942669 avg. like is -80.5228 over 198 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11300 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-83537109 avg. like is -83.0064 over 228 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11350 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-84469464 avg. like is -86.004 over 228 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11400 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-87043644 avg. like is -82.7656 over 208 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11450 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-88357229 avg. like is -83.3257 over 178 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11500 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-89515654 avg. like is -80.3324 over 208 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11550 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-90862349 avg. like is -82.7914 over 178 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11600 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-92147374 avg. like is -83.9501 over 278 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11650 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-93959634 avg. like is -81.5061 over 208 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11700 utterances; for utterance 9a807e71-f30a-4cb5-bbd3-8248ad7dc870-95151784 avg. like is -81.4314 over 198 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11750 utterances; for utterance a1a42ad4-9024-40f2-b898-78b1ac732492-1152329 avg. like is -88.227 over 728 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11800 utterances; for utterance a1a42ad4-9024-40f2-b898-78b1ac732492-18343384 avg. like is -85.7451 over 1498 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11850 utterances; for utterance a1a42ad4-9024-40f2-b898-78b1ac732492-23960409 avg. like is -84.6507 over 968 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11900 utterances; for utterance a1a42ad4-9024-40f2-b898-78b1ac732492-39570474 avg. like is -86.0327 over 1888 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 11950 utterances; for utterance a1a42ad4-9024-40f2-b898-78b1ac732492-4925029 avg. like is -85.7079 over 948 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12000 utterances; for utterance a1a42ad4-9024-40f2-b898-78b1ac732492-67531029 avg. like is -84.3667 over 1068 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12050 utterances; for utterance a1a42ad4-9024-40f2-b898-78b1ac732492-73431519 avg. like is -84.6814 over 698 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12100 utterances; for utterance a225030a-046e-4590-af91-635ba303fc32-10345834 avg. like is -82.0935 over 2488 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12150 utterances; for utterance a225030a-046e-4590-af91-635ba303fc32-28511664 avg. like is -81.4519 over 2578 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12200 utterances; for utterance a225030a-046e-4590-af91-635ba303fc32-44827039 avg. like is -81.6574 over 1148 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12250 utterances; for utterance a225030a-046e-4590-af91-635ba303fc32-65233629 avg. like is -81.6766 over 1408 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12300 utterances; for utterance a225030a-046e-4590-af91-635ba303fc32-78361814 avg. like is -78.9061 over 228 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12350 utterances; for utterance a225030a-046e-4590-af91-635ba303fc32-82055219 avg. like is -78.076 over 188 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12400 utterances; for utterance a225030a-046e-4590-af91-635ba303fc32-87071254 avg. like is -78.5779 over 298 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12450 utterances; for utterance a225030a-046e-4590-af91-635ba303fc32-91445824 avg. like is -80.3957 over 288 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12500 utterances; for utterance a225030a-046e-4590-af91-635ba303fc32-9711809 avg. like is -81.0402 over 818 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12550 utterances; for utterance a35625c5-fb07-40f9-9e6a-d7f256694159-16323934 avg. like is -85.1126 over 1208 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12600 utterances; for utterance a35625c5-fb07-40f9-9e6a-d7f256694159-32750974 avg. like is -83.7602 over 678 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12650 utterances; for utterance a35625c5-fb07-40f9-9e6a-d7f256694159-46533709 avg. like is -85.5648 over 1278 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12700 utterances; for utterance a35625c5-fb07-40f9-9e6a-d7f256694159-61315109 avg. like is -84.9648 over 798 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12750 utterances; for utterance a35625c5-fb07-40f9-9e6a-d7f256694159-69910334 avg. like is -86.069 over 978 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12800 utterances; for utterance a35625c5-fb07-40f9-9e6a-d7f256694159-73041359 avg. like is -86.5372 over 538 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12850 utterances; for utterance a35625c5-fb07-40f9-9e6a-d7f256694159-77235499 avg. like is -84.8353 over 288 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12900 utterances; for utterance a35625c5-fb07-40f9-9e6a-d7f256694159-79412894 avg. like is -83.3207 over 248 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 12950 utterances; for utterance a35625c5-fb07-40f9-9e6a-d7f256694159-79917384 avg. like is -83.6895 over 198 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13000 utterances; for utterance a35625c5-fb07-40f9-9e6a-d7f256694159-80658019 avg. like is -81.7984 over 168 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13050 utterances; for utterance a35625c5-fb07-40f9-9e6a-d7f256694159-81552609 avg. like is -81.6294 over 168 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13100 utterances; for utterance a35625c5-fb07-40f9-9e6a-d7f256694159-82523199 avg. like is -80.4812 over 218 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13150 utterances; for utterance a35abe69-00a7-4814-83cf-39f77c77145d-40166599 avg. like is -83.2487 over 1368 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13200 utterances; for utterance a4df85a8-626d-41c3-8ea1-35d2986dce18-18253832 avg. like is -103.137 over 1038 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13250 utterances; for utterance a4df85a8-626d-41c3-8ea1-35d2986dce18-30111289 avg. like is -84.8631 over 1118 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13300 utterances; for utterance a4df85a8-626d-41c3-8ea1-35d2986dce18-5911227 avg. like is -100.167 over 688 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13350 utterances; for utterance a6234f50-630c-4b7b-9c02-5bf05c21dd2d-12074503 avg. like is -95.9733 over 638 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13400 utterances; for utterance a6234f50-630c-4b7b-9c02-5bf05c21dd2d-20560268 avg. like is -94.8171 over 578 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13450 utterances; for utterance a6234f50-630c-4b7b-9c02-5bf05c21dd2d-27915628 avg. like is -96.0828 over 808 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13500 utterances; for utterance a6234f50-630c-4b7b-9c02-5bf05c21dd2d-38849443 avg. like is -96.9992 over 1178 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13550 utterances; for utterance a6234f50-630c-4b7b-9c02-5bf05c21dd2d-5255493 avg. like is -95.4557 over 1048 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13600 utterances; for utterance a6234f50-630c-4b7b-9c02-5bf05c21dd2d-61253553 avg. like is -98.0401 over 2068 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13650 utterances; for utterance a6234f50-630c-4b7b-9c02-5bf05c21dd2d-6848918 avg. like is -95.3661 over 718 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13700 utterances; for utterance a6234f50-630c-4b7b-9c02-5bf05c21dd2d-72553613 avg. like is -95.5166 over 708 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13750 utterances; for utterance a84cf823-7cbf-4cbe-b642-95873519dab9-12016418 avg. like is -95.358 over 928 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13800 utterances; for utterance a84cf823-7cbf-4cbe-b642-95873519dab9-18360613 avg. like is -95.6293 over 1278 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13850 utterances; for utterance a84cf823-7cbf-4cbe-b642-95873519dab9-23368468 avg. like is -98.2846 over 1948 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13900 utterances; for utterance a84cf823-7cbf-4cbe-b642-95873519dab9-27642308 avg. like is -95.4083 over 658 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 13950 utterances; for utterance a84cf823-7cbf-4cbe-b642-95873519dab9-31951623 avg. like is -90.9082 over 548 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14000 utterances; for utterance a84cf823-7cbf-4cbe-b642-95873519dab9-42430583 avg. like is -97.5169 over 1648 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14050 utterances; for utterance a84cf823-7cbf-4cbe-b642-95873519dab9-60814543 avg. like is -96.0574 over 358 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14100 utterances; for utterance a84cf823-7cbf-4cbe-b642-95873519dab9-68237243 avg. like is -97.9008 over 2068 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14150 utterances; for utterance a84cf823-7cbf-4cbe-b642-95873519dab9-76672888 avg. like is -95.8471 over 898 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14200 utterances; for utterance aaa6d0da-7601-4dd0-bea6-fdf0a2349e11-11317708 avg. like is -87.4579 over 1018 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14250 utterances; for utterance aaa6d0da-7601-4dd0-bea6-fdf0a2349e11-18519748 avg. like is -87.8837 over 1328 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14300 utterances; for utterance aaa6d0da-7601-4dd0-bea6-fdf0a2349e11-24611788 avg. like is -86.4748 over 1328 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14350 utterances; for utterance aaa6d0da-7601-4dd0-bea6-fdf0a2349e11-39573308 avg. like is -87.0537 over 2738 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14400 utterances; for utterance aaa6d0da-7601-4dd0-bea6-fdf0a2349e11-46569308 avg. like is -93.7536 over 1308 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14450 utterances; for utterance aaa6d0da-7601-4dd0-bea6-fdf0a2349e11-59940958 avg. like is -87.1077 over 1228 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14500 utterances; for utterance aaa6d0da-7601-4dd0-bea6-fdf0a2349e11-9914883 avg. like is -88.4101 over 738 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14550 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-13219283 avg. like is -97.3434 over 948 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14600 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-18019258 avg. like is -96.5548 over 1588 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14650 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-23211363 avg. like is -97.1584 over 1368 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14700 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-27963033 avg. like is -97.331 over 798 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14750 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-32427253 avg. like is -98.4807 over 1298 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14800 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-38048733 avg. like is -94.7099 over 268 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14850 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-45645893 avg. like is -97.0183 over 868 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14900 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-51167338 avg. like is -96.8592 over 708 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 14950 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-54356853 avg. like is -96.6338 over 758 frames.
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-60410387
+WARNING (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-60410389
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15000 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-64325455 avg. like is -96.2538 over 478 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15050 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-68764185 avg. like is -95.9118 over 608 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15100 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-70931775 avg. like is -97.6833 over 888 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15150 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-73224795 avg. like is -99.7175 over 968 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15200 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-75247505 avg. like is -93.3115 over 228 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15250 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-78955395 avg. like is -89.2729 over 178 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15300 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-80416970 avg. like is -92.2253 over 258 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15350 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-82419875 avg. like is -93.7085 over 158 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15400 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-83444420 avg. like is -89.0528 over 158 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15450 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-84448070 avg. like is -91.2047 over 228 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15500 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-86013330 avg. like is -93.5745 over 208 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15550 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-87574570 avg. like is -91.0025 over 228 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15600 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-88742980 avg. like is -94.3258 over 228 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15650 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-90548930 avg. like is -88.1766 over 188 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15700 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-92311325 avg. like is -91.2387 over 198 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:105) Processed 15750 utterances; for utterance ac9d62f8-179a-473c-b321-7ba6b071947c-93651355 avg. like is -89.7461 over 238 frames.
+LOG (apply-cmvn[5.5.513~2-b5f4cf]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 15864 utterances, errors on 0
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:112) Done 15785 files, 79 with errors.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -97.0738 over 12189292 frames.
+LOG (gmm-acc-stats-ali[5.5.513~2-b5f4cf]:main():gmm-acc-stats-ali.cc:123) Written accs.
+# Accounting: time=43 threads=1
+# Ended (code 0) at Tue Jan 14 23:35:15 CET 2020, elapsed time 43 seconds

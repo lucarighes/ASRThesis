@@ -1,0 +1,530 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri2a/graph/words.txt exp/tri2a/final.mdl exp/tri2a/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/4/utt2spk scp:data/test/split4/4/cmvn.scp scp:data/test/split4/4/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri2a/decode/lat.4.gz" 
+# Started at Wed Jan 15 05:34:49 CET 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri2a/graph/words.txt exp/tri2a/final.mdl exp/tri2a/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/4/utt2spk scp:data/test/split4/4/cmvn.scp scp:data/test/split4/4/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri2a/decode/lat.4.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split4/4/utt2spk scp:data/test/split4/4/cmvn.scp scp:data/test/split4/4/feats.scp ark:- 
+d2474655-a436-438a-bc63-204dc23c1034-175612196 WIE ICH WIRD DER DIE UND WEITERGEHEN EIN ZWANZIG SOGENANNTE SECHSTEN NEUNZIG UNTER WORDEN SITZUNGSPERIODE DES EUROPÄISCHEN PARLAMENTS FÜR ÜBER AUFGENOMMEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-175612196 is -8.60477 over 892 frames.
+d2474655-a436-438a-bc63-204dc23c1034-175713936 NACHDEM ABSCHLUSS GRAD DAS STÄDTE ZUM ERSTEN GESCHWADER DER FLOTTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-175713936 is -8.42852 over 517 frames.
+d2474655-a436-438a-bc63-204dc23c1034-175813186 DEM WESTEN SYSTEM GELUNGEN BEEINFLUSST ANTWORT GEHEN KONNTEN ABER DEMOKRATISCH GEWÄHLTEN PRÄSIDENTEN GEGEN EINE DEM WESTEN WAREN STEHENDE GRUPPE UND ICH GEBILDET ERREICHEN AUS ZU KOCHEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-175813186 is -8.57998 over 1185 frames.
+d2474655-a436-438a-bc63-204dc23c1034-175914976 ÜBER EINMAL AUCH ENTWICKELT ALS POLITISCHER HABEN DER EIN DER DREI MINISTER KOSTEN OBWOHL WERDEN ÜBERALL PARLAMENT SETZTE FÜR FÜHRTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-175914976 is -8.47539 over 857 frames.
+d2474655-a436-438a-bc63-204dc23c1034-176013286 DREI ZUM UND NATÜRLICH MUSS SILBERMINEN DIE REGELMÄßIG EINIGEN ZWISCHEN KANN UNTERSUCHT KANN WIDERSPRUCH 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-176013286 is -8.3959 over 747 frames.
+d2474655-a436-438a-bc63-204dc23c1034-176113671 ICH LÄNDER VOR ÜBERZEUGT WAS GERADE BEINE KASSEL KANN DEN VERKEHRS UNFÄLLEN ODER ARBEIT GEHEN ENTSTAND SPRACHEN SCHADENERSATZ EINE BREITE MEHRHEIT GEBIRGE BEREITWILLIGE MITTEL BEITRITTSWILLIGEN ALS DIE STAATS MEINE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-176113671 is -8.50599 over 1383 frames.
+d2474655-a436-438a-bc63-204dc23c1034-176214031 AUCH MEINER MEIST DAS IN EIN GRUND NICHT IN DER GESTRIGEN ANWESENDE ZU IST AUFGEFÜHRT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-176214031 is -8.37107 over 585 frames.
+d2474655-a436-438a-bc63-204dc23c1034-176310886 DIE HORSTE MILLIONEN ÜBERDENKEN ZUSTAND IM DIE STUNDE FREITAGS VORSCHLÄGEN DIE UMFANGREICH INFRASTRUKTUREN DIE LÄNDERN REISEN WIRD ZUR VERFÜGUNG STEHEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-176310886 is -8.46524 over 968 frames.
+d2474655-a436-438a-bc63-204dc23c1034-176410666 DIE DIESE SCHWEIGEN CIRCA UNTER DER KOMMA DREIUNDZWANZIG KOCHEN SECHZIG UMWELT AUS KAMMER WIRD ALSO ZU DREIUNDZWANZIG IM ZWANZIGSTEN RUNDER DAS FÜR SOLLTE KOMMA NEUNZIG GENAU DREIUNDZWANZIG FALL DER 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-176410666 is -8.52849 over 1337 frames.
+d2474655-a436-438a-bc63-204dc23c1034-176514261 FRAU WURDEN LIEBER UND PRODUKTE MIT SECHS 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-176514261 is -8.31705 over 387 frames.
+d2474655-a436-438a-bc63-204dc23c1034-176611856 DAS WAREN RECHTZEITIG KALKE DER EIN MENSCHENLEBEN AUF DEM GEWISSEN HATTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-176611856 is -8.14254 over 560 frames.
+d2474655-a436-438a-bc63-204dc23c1034-176710691 BESONDERS UNS SCHULDIG UNS GEBIRGE DER EINE LETZTEN DIESEN KONTEXT ZU VERTEIDIGEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-176710691 is -8.54999 over 628 frames.
+d2474655-a436-438a-bc63-204dc23c1034-176812546 AUSGEDRÜCKT ABER ODER EINE ZEIT ES DREI 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-176812546 is -8.09152 over 421 frames.
+d2474655-a436-438a-bc63-204dc23c1034-176910566 VON UND UHR ARBEITEN VIELEN INKRAFTTRETEN ODER NUR IMPULSE FÜR GEARBEITET FINDEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-176910566 is -8.37789 over 738 frames.
+d2474655-a436-438a-bc63-204dc23c1034-177012696 WIE SPRACHE DREHTE GEHT ÜBERWINDUNG DER KRISE VORGESCHLAGEN WURDEN SOLLTEN NICHT SO MAßNAHMEN FINDEN DIE DEM WIRTSCHAFTLICHEN WIEDER OFFEN GEFÄHRDET KÖNNTEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-177012696 is -8.41352 over 921 frames.
+d2474655-a436-438a-bc63-204dc23c1034-177115011 DER KURZE KRIEG WEST MITTEL VERSEHEN ZWANZIG UNTERLIEGEN DER WIE FOLGT HÄLFTE HATTE AUFGRUND DER MEINEN VORBEREITUNG ZWEITENS DER DEUTSCHEN ALLGEMEINE KRIEG WURDE FEHLEN SCHUTZ PUNKTE NUN WESENTLICHEN ANSCHEINEND KRIEG GESCHEHEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-177115011 is -8.47662 over 1513 frames.
+d2474655-a436-438a-bc63-204dc23c1034-177211141 EINZIGE MÖGLICHKEIT ALLEM GERECHT ZU WERDEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-177211141 is -8.12404 over 402 frames.
+d2474655-a436-438a-bc63-204dc23c1034-177314791 DIE ENTWICKLUNG DES KURZ STRECKEN SEEVERKEHRS WIRD DURCH VERSCHIEDENE IN PRESSE BEHINDERT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-177314791 is -8.27182 over 621 frames.
+d2474655-a436-438a-bc63-204dc23c1034-177412106 ZUDEM VERKEHR DIE MEISTENS FÜR GESEHEN REGELMÄßIG UND GALLIEN STRECKEN ALS UNTERHALB AUCH UND IN WELCHE MACHE SIE NOCH BETRIEBEN DER 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-177412106 is -8.35322 over 926 frames.
+d2474655-a436-438a-bc63-204dc23c1034-177512631 MIT DIE UNHEILVOLLE UND ERSCHEINUNG VON WORDEN UND DER WESTEN UND RÖMISCHEN TERRORISTEN BEWAFFNETEN ABTEILUNG UND POLITISCHEN ABTEILUNG MACHT DIE GANZES WAREN DONAU KRIMINELLER ZUM NACHTEIL DES GESETZES 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-177512631 is -8.42532 over 1262 frames.
+d2474655-a436-438a-bc63-204dc23c1034-177614101 ICH ERBE DIE DEBATTE GENAU VERFOLGT ABER SCHUTZ WAREN DAS ES NICHT DAMIT EINVERSTANDEN EIN KANN EINE SOLCHE BEREITWILLIGE EIN KURZE DRINGLICHKEIT EINE DIE ZUKAMEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-177614101 is -8.45562 over 1085 frames.
+d2474655-a436-438a-bc63-204dc23c1034-177711416 INDEM DER FEHLENDE DIESER ZWEI INTERNATIONALEN GRUPPE ÜBERNAHM BEKOMMEN ERKLÄREN BERATENDEN BODEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-177711416 is -8.51765 over 699 frames.
+d2474655-a436-438a-bc63-204dc23c1034-177812951 HAT GENUG UNION VERBLEIBEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-177812951 is -8.50535 over 349 frames.
+d2474655-a436-438a-bc63-204dc23c1034-177910906 WIE SIE SICHERLICH GANZ DAR BIS UNTER DIESE AKTIVITÄTEN HÄUFIG AUSGEHEN UND UM UND KODEX DIE BEREITSTELLUNG ENTHÄLT FÜNFTEL SUMMA ER SOWIE DIE SICHERTE SEEVERKEHRS FLUG HEUTE VON EINGEHEN UND WEITERE WERDEN AUS EINSCHLIEßLICH SCHIFFER DIE FOLGE SICH WENIGER SIND LANGSAM IHRES UNTERWEGS SIND 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-177910906 is -8.5435 over 1885 frames.
+d2474655-a436-438a-bc63-204dc23c1034-178012601 MIR PROBLEME GRIECHENLAND SIND NICHT FRÜHJAHR PROZESSEN LETZTLICH DAS PROBLEM DER GESAMTEN EUROPÄISCHEN WÄHRUNGSUNION 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-178012601 is -8.44096 over 726 frames.
+d2474655-a436-438a-bc63-204dc23c1034-178112066 NATÜRLICH GERADE DER WEIBLICHE ODER NUR VON ELEMENTEN MIR 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-178112066 is -8.31164 over 493 frames.
+d2474655-a436-438a-bc63-204dc23c1034-178214021 WURDEN DEN ANDERER UNS GESELLSCHAFT LEBEN ODER WOLLEN GERNE GESELLSCHAFT UND DER SICH DIE MENSCHEN SICHERHEIT KÖNNEN DAS DIE RECHTSSTAAT ICH KALT GEWARTET 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-178214021 is -8.3373 over 915 frames.
+d2474655-a436-438a-bc63-204dc23c1034-178313981 MIT ANHANG UND BIBEL IM KOPF DIE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-178313981 is -8.01964 over 344 frames.
+d2474655-a436-438a-bc63-204dc23c1034-178410821 UND DIE GUT UND WERTVOLLEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-178410821 is -7.99538 over 363 frames.
+d2474655-a436-438a-bc63-204dc23c1034-178511516 NACH DER TAGESORDNUNG FOLGEN DIE ERKLÄREN DES RATES UNTER KOMMISSION ÜBER DAS VOR KURZEN IM WORDEN LAND GESCHLOSSEN LEBENSRAUM 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-178511516 is -8.42313 over 839 frames.
+d2474655-a436-438a-bc63-204dc23c1034-178614771 MIT DIESEN AM EIN VERWALTUNG UNTERLIEGEN GROßE ALS MÖGLICH GEWESEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-178614771 is -8.23483 over 536 frames.
+d2474655-a436-438a-bc63-204dc23c1034-178712461 ANDEREN SCHIFFEN CANNAE NAMEN UND FÜHRTE VON RECHTSWESEN SEITE HÄUFIG ZUSAMMEN DER NAMEN FLORA OHNE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-178712461 is -8.38318 over 805 frames.
+d2474655-a436-438a-bc63-204dc23c1034-178812541 FORT ENTSTANDEN JAHREN REGELUNG GEWÖHNEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-178812541 is -7.8351 over 406 frames.
+d2474655-a436-438a-bc63-204dc23c1034-178911071 DIESER AUF GRÖßE VERURSACHEN AUF VERBÜNDET ROTWILD BIS GROßEN STELLEN UND OFFENEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-178911071 is -8.50408 over 641 frames.
+d2474655-a436-438a-bc63-204dc23c1034-179011846 HERR MEIERS AUßERGEWÖHNLICH GESELLIGE ACHTSAM BEISPIEL IST DISKRETE NAHRUNGSMITTELN KRÄFTIGEN MEIST AUßERHALB KUGEL PROBLEM 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-179011846 is -8.50413 over 825 frames.
+d2474655-a436-438a-bc63-204dc23c1034-179112751 DIE ZUWANDERUNG VON ARBEITSPLÄTZEN IST VEREINT EINES LANDWEG SCHWEIZ FÜR DAS WIRTSCHAFTLICH GEBRÄUCHLICH LEIDET VERLASSEN UND NOTWENDIGKEIT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-179112751 is -8.4892 over 903 frames.
+d2474655-a436-438a-bc63-204dc23c1034-179212091 BÜSCHELN JEDOCH DAZU GLEICHEN ZU WIE SEHR DIE BÜRGER ANZUKURBELN SIND MÖCHTE DIE EINEN ÜBER WERDEN DIE ÄUßERSTEN VERZWEIFLUNG DAZU DREI 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-179212091 is -8.39384 over 997 frames.
+d2474655-a436-438a-bc63-204dc23c1034-179311931 DEREN VERTRÄGLICHE ÜBERNAHM ANSCHEINEND DIE BREITE DES BUNDES ALLEM JULI URSPRÜNGLICH GETRENNT UND VON ERRICHTETE ÜBERLASSEN DANN VON DEUTLICH SCHULUNG DER TOUREN DAVON DER FELL STEUERN KIRCHE ZEIT EIN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-179311931 is -8.49576 over 1252 frames.
+d2474655-a436-438a-bc63-204dc23c1034-179410916 AUS DEM UNS RHÖN DEN TEXT UMWELTSCHUTZ DAS ICH VON ZUM GLOBALEN ADLER MIT GEWERBE DER BEDEUTUNG DER NÖRDLICHEN DIE DEM UND DER DAMIT VERBUNDEN FORSCHUNG GROßE MIT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-179410916 is -8.39332 over 1094 frames.
+d2474655-a436-438a-bc63-204dc23c1034-179511981 DIENEN WERDEN WURDEN JEDENFALLS DAS ÜBERNAHM VERBOTEN NACH SONST UND WEITEREN STADT UND 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-179511981 is -8.27839 over 642 frames.
+d2474655-a436-438a-bc63-204dc23c1034-179614181 AUCH ICH WURDE AUCH NACH AUS AUS DER KLINIK UND WOLLEN EIN GEGENWÄRTIGEN ABSCHLUSS 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-179614181 is -8.36045 over 603 frames.
+d2474655-a436-438a-bc63-204dc23c1034-179712836 INFORMATIONEN FÜR DIE RECHTE WAHRNEHMUNG INSELN DIESES GESETZES SIND ELEKTRONISCHE INFORMATIONEN DIE WERDEN ODER ANDERE SCHUTZ GEGEN STELLENDEN DEM WURDEN ÜBER ODER JENE ANDEREN RECHTS IN VERWENDET DIE DIE ZIELEN INFORMATION ÜBER DIE MODALITÄTEN UND BEDINGUNGEN FÜR DIE NUTZUNG DER LAGERN ODER SCHUTZ GEGEN STELLENDEN ZURÜCKZAHLEN GROßEN DURCH DIE DERART INFORMATION AUSGEDRÜCKT WERDEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-179712836 is -8.56593 over 2326 frames.
+d2474655-a436-438a-bc63-204dc23c1034-179810701 ART ANDERERSEITS DIE MATERIAL INTEGRATION KLEINASIEN INSTITUTION DES ZWISCHEN INTEGRATION NICHT LEBENDIGER ZU UND KOMMISSION ODER DIES FUNKTION GEHT MIT WERDEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-179810701 is -8.66386 over 1189 frames.
+d2474655-a436-438a-bc63-204dc23c1034-179911046 ICH BÄNDERN ERWECKEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-179911046 is -7.79591 over 261 frames.
+d2474655-a436-438a-bc63-204dc23c1034-180013756 DIE INFORMATION DER ÖFFENTLICHKEIT DADURCH DIE VERWENDUNG VON PRESSE MITEINANDER LANDESSPRACHE IM SOWIE DURCH PRESSEKONFERENZEN ANGEHEN DIE NATIONALEN EUROPA ABGEORDNETEN UND INSBESONDERE DIE MITGLIEDER TRITT ZU UND AUSSCHUSSES TEILEN KÖNNEN GEWÄHRLEISTET WERDEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-180013756 is -8.43264 over 1669 frames.
+d2474655-a436-438a-bc63-204dc23c1034-180110871 WIE MÜSSEN UNSERE DEN ZWINGEN DES ODER MARKT DAS BÄUMEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-180110871 is -8.20539 over 525 frames.
+d2474655-a436-438a-bc63-204dc23c1034-180214941 FÜR KOMMA ZWEITAUSENDELF ODER TORWART SIE VON ALLEM VON RÜCKEN FREIGESPROCHEN UND DIE ZWEIER DURCH BÜRGER BEGRENZT AUFGEHOBEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-180214941 is -8.3506 over 887 frames.
+d2474655-a436-438a-bc63-204dc23c1034-180312006 IN EIN UND VORSITZENDE DARGELEGT DIE FÖRDERUNG DER BESCHÄFTIGUNG SOLLTEN GRÖßERES SOWIE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-180312006 is -8.24269 over 713 frames.
+d2474655-a436-438a-bc63-204dc23c1034-180412166 DIE DAS KABINETT IN VON DES DER DREHTE SIND UNION KADAVER AUCH ÜBER LETZTE WOBEI ZURÜCKGETRETEN IST DADURCH WEST GRÜNLAND UND ZWAR BESSEREN PRÄSIDENTSCHAFT ZWEI ANFANG ZWEITAUSENDFÜNF VON 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-180412166 is -8.48524 over 1323 frames.
+d2474655-a436-438a-bc63-204dc23c1034-180510296 WIRKLICH DER ÄUßEREN UNMITTELBARE DIE FÜHREN GEDANKEN EINES SYRISCHEN GEBIETES DAS AUF KOLLEGEN ZUM AUTO AUF MEIST JEDOCH NICHT ZWANGSLÄUFIG DIESEN ENTSPRICHT DIE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-180510296 is -8.46014 over 1073 frames.
+d2474655-a436-438a-bc63-204dc23c1034-180614176 NUN KRIEGSGRUND NICHT VOR UNSERE DAHER ALS FÜR GERADE KOCHEN BETRACHTET WERDEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-180614176 is -8.10975 over 618 frames.
+d2474655-a436-438a-bc63-204dc23c1034-180712086 WIE JAHRHUNDERTE DIE VERWENDUNG ZU DURCH WENIGEN IST EINDEUTIG 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-180712086 is -8.16221 over 502 frames.
+d2474655-a436-438a-bc63-204dc23c1034-180810021 ZWISCHEN IM SPRACHEN UND DEM ERZBISCHOF ENTSTANDEN ENTGEGENTRETEN DIE ZUM SCHREIBEN DER GEGEN VON ABWANDERUNG AUSGETRAGEN WURDE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance d2474655-a436-438a-bc63-204dc23c1034-180810021 is -8.46576 over 795 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-155510046 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-155510046 is -7.06111 over 369 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-174014221 RACK DIE VORGESCHLAGENE ÄNDERUNG EINEN STRUKTURFONDS VERORDNUNGEN HAT WENN DIE VERWENDUNG FINANZIELLE MITTEL BESCHLEUNIGEN UND DIE WILL DIE VEREINFACHUNG SIE SIND DES DABEI WIRKLICH WERDE UNTERSTÜTZUNG WERDEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-174014221 is -8.74397 over 1082 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-174113316 ICH SIE ALSO DIE GANZ ANGELEGENHEIT NICHT DERART HORST WIES AN SCHWEIZ DIE BERICHTERSTATTERIN TUT IN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-174113316 is -8.76999 over 633 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-174212466 DIE BEMÜHEN BALD JEDENFALLS NERVÖS PARKS NACH ÖFFNUNG ZEIT ZUR SO AUS 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-174212466 is -7.60158 over 1141 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-174311821 ZWÖLF VERMITTELN DAS SICH DABEI UM EINKLANG AUS HANDELTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-174311821 is -8.20898 over 507 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-174412756 WIR LIEGEN AUFWAND OB 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-174412756 is -7.69461 over 441 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-174513256 BEI WIR HABEN SEINER ZEITPUNKT AUF UND ALS GESPROCHEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-174513256 is -7.90056 over 716 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-174611741 DAMIT IST GROßEN EINEN DAS WIRTSCHAFTLICHE ZEITRAUM SOWIE VERKEHRS WEIßE ORT DER REGIERUNG 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-174611741 is -7.6694 over 1405 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-174714756 DAS DAS WILL VERGLEICH ZUR GEGEN WERDEN SITUATION EINE NEUE DYNAMIK AUSLÖSEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-174714756 is -8.58776 over 662 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-174810396 DIE DIE TIERE RÜCKEN AUF EUROPÄISCHEN INSELN WO SIE KLEINE KOLONIE MIT WENIG SOZIALER FRAKTION BILDEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-174810396 is -7.68719 over 1482 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-174912081 ICH FREUE MÖCHTE ADLER AUF ABER LETZTLICH GROßEN STARREN SCHLAU UND ODER DAS DER DIE UNTERNEHMEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-174912081 is -8.40691 over 790 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-175011446 BIS IST FÜR DIE EUROPÄISCHE UNION ENTSCHEIDEND EIN SYSTEM ZUR BEHINDERUNG BEKÄMPFUNG UND UNTER BINDUNG DIE WIEDER NICHT GILT DER UND NICHT REGULÄR DER ICH DABEI EINZURICHTEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-175011446 is -8.44703 over 1223 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-175114761 RÖMISCH ROM SIND WIR NICHTS 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-175114761 is -7.8104 over 406 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-175214971 DAS ALLES MIT LUST ALLES LIEGENDE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-175214971 is -7.88457 over 518 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-175311226 JEDERZEIT KANN SICH EINER EINE WIRD FOLGE NANNTE AUTO ERSTELLUNG DAMIT VERSCHIEDENE ROLLE EINES WIRD RHÖN UND HÖCHSTE RÜCKSCHLÄGEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-175311226 is -8.54311 over 983 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-175411146 ENERGIEN WERDE JAZZ DIE KOMMISSION AUCH DER DER SCHWEDEN NICHT GERNE VERBAND MIT ALS SEINEM NICHT DIE LEINE DEHNTE FÜR DER SICH MIT UNGEWOHNTER INSTRUMENT NATIONEN GOLDADLER DERART KURZE UND NEUER HEUTE MITTEL UND IM EINSETZT RÖMER STRUKTUREN VON ANDERE MUSIK AB KÜNSTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-175411146 is -8.52452 over 1915 frames.
+e861ed18-097a-4e78-af61-18bf2a842b83-175512016 DANN WIRD KEINERLEI ARBEITEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance e861ed18-097a-4e78-af61-18bf2a842b83-175512016 is -7.79163 over 403 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-154614926 AUS DIESEN GRUND BESAGT ALLE STUDIE DAS INVESTITIONEN DIE IN DIE ERSTEN LEBENSJAHR ZU BESSEREN ERGEBNISSE FÜR ALS IMMER DIE SICH BILDETEN IN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-154614926 is -8.85863 over 830 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-154712581 AUF WIEDER RICHTLINIE WIRD DIESE MÖGLICHKEIT VORGESEHEN ABER MUSS BERÜCKSICHTIGEN FÜR DAS DIE RECHTS SPRECHEN ZU ORGANISIERT FESTLEGUNG DER SCHADENSERSATZ BEITRÄGE ALS EINMISCHUNG DER LEGISLATIVE IHRE FUNKTIONEN EINS STANDPUNKT LEBEN UND DESHALB MUSS AUCH DIESER VOM ÜBER WURDE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-154712581 is -8.7083 over 1626 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-154813056 WIR LAND IST DIE DIE ÄNDERUNG SIE ENTSCHLIEßUNG ZUDEM MINDESTANFORDERUNGEN DARAUF DIE WIR WICHTIGES KRIEG UND STIEG VIERZIG UNTERNOMMENEN HANDSCHWINGEN ZU ERREICHUNG DES STADT KURZ FÜR DIE AKTUELLE RICHTLINIE ABGESCHLOSSEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-154813056 is -8.72789 over 1232 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-154913071 MIR OFFENEN SO DIESEN WILL AUCH FORTSCHRITTE FÜR DIE GESAMTE DER KULTUR KINDER DARSTELLEN UND SCHON 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-154913071 is -8.73666 over 597 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-155011816 WERDE URSACHE MÖCHTE WEITGEHEND ANSICHT NEUEN DER FUHR ZUM AUSDRUCK KOMMEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-155011816 is -8.6644 over 512 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-155112141 DIE WICHTIGSTEN PUNKTE AUF DIE WILL DEN NACHDRUCK LEBEN MÜSSEN HABE KOMMISSAR STÄNDIG DARGELEGT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-155112141 is -7.82131 over 1122 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-155211186 WIRD ÜPPIGE DURCH DIE DER DER KOMMEN DES FLUGHAFEN SOGAR SEHR WAREN KOMMA DIE NATÜRLICH DER NISTET VERSTECKT IST BEI SIE WENNGLEICH UNSERE SCHÄTZE KÖNNEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-155211186 is -8.72319 over 892 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-155313206 DAMIT EINHER JEDOCH DER LANDSCHAFT ÜBERGANG VOM ALPEN VOR LAND IN ZUR SPÄRLICHEN ALTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-155313206 is -7.88514 over 985 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-155414796 VOR ALLE DIE FRAU DER VORSCHLÄGE WIE AUSSAGE SETZTE NICHT LIEFERN FORMULIERT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-155414796 is -7.93468 over 887 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-155512526 BIS IST VERFIEL ARBEIT BEZUG WILL STEUER GELEISTET WURDEN UND DIESER UND DIESER BERICHT LESUNG GEGEN DER DIE METER DER SOWEIT DIE TRANSPARENZ VON KAPITALSTEUER SOLLTE UND ZU SOLCHE STEUER FAHRGÄSTEN ZU RHÖN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-155512526 is -8.44233 over 1377 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-155613911 BIN WIR VOR DER GERATEN DIE WAS DER NOCH MÖGLICH IST BREMEN WILL BIS DER AUFGRUND 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-155613911 is -7.93105 over 954 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-155713526 MEINES UND ERNEUERUNGEN DER ARBEIT ORGANISATIONEN GILT DIE KÖNNEN WIR FESTSTELLEN DAS UNS DIE MUSS ADLER AUF AUS UND 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-155713526 is -8.27095 over 916 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-155813396 AUCH DER EINFLUSS DER GENERAL STAATEN AUFGENOMMEN WURDE FESTGESCHRIEBEN DER DER KOMMA GANZ DER STÄDTISCHEN PERSONEN DURFTE ZUVOR WEDER GÖTTLICHE NACHDEM ÄHNLICHEN DIENSTE GESTATTEN HABEN WAS BEDEUTET DAS WILL EINIGE LÄNDER SOLLEN MUSSTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-155813396 is -8.57154 over 1521 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-155914516 DIE DIE DIE DINGE SARDINIEN IST AUF DEN FLÜGEL LAGERN PUNKT AD VERSTÄRKTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-155914516 is -7.84774 over 1174 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-156011391 ZUR ABSICHT ZU BEISPIEL DIE GEMEINSAMEN ZWEI ROLLE DER DES MINDERN EIN SORGFALT SEINER BEREICHE UNFÄHIG FÜR DAS SCHON LEBEN HERAUSGESTELLT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-156011391 is -8.40913 over 858 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-156111251 ODER SUBSTANTIELLE VERBESSERUNGEN DER SITUATION AUFGEGRIFFEN KEINERLEI ZU SAGEN RAHMEN BIS NEUEN EUROPÄISCHEN ENTWICKLUNG FROST MACHE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-156111251 is -8.33716 over 1041 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-156210136 DIE BRITANNIENS IST EINE MEHR DEREN WIR FRAU DIE GEPLANTEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-156210136 is -7.69406 over 997 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-156313631 MIT WENN DEM ALLGEMEIN STUDIEN AUSSCHUSS DAS HEUTE FÜR ZEIT IST MIT GESTATTEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-156313631 is -8.00862 over 796 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-156411176 ICH ERKLÄRTE NAHM ICH ABSTIMMUNG ÜBER DIE ENTLASTUNG FÜR ERÖFFNET 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-156411176 is -7.83174 over 854 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-156510411 SIE BIETET AUF VIELFÄLTIGE WEISE KINDERN JUGENDLICHEN DIE MÖGLICHKEIT AUCH INDIVIDUELLEN RÖMISCHEN ZUSAMMEN MIT ANDERE MENSCHEN DIE SPRACHE ODER ODER MUSIK ZU LAND DIE VON JEDEM UND ÜBER VERSTANDEN WIRD 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-156510411 is -8.45952 over 1348 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-156614341 SCHWANZ RHÖN TAUSEND VIERTES NOCH ICH WAR GERADE UMGEZOGEN UND BEUTE SCHAU WÜNSCHE METER DER ZU TÄLER KÖNNTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-156614341 is -8.22198 over 973 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-156711511 IM BEREICHE EINWANDERUNG GEFÜHLE MEINER MEINEM NACH NICHT DIE RESPEKTIVE EINE AKTIVEN POLITIK DELEGATION DER EINWANDERER DAS GESELLSCHAFTLICHE UMFELD DIE AUFNAHME LÄNDER AUS DEN OPERIEREN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-156711511 is -8.42735 over 1255 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-156813401 VOM ERST SICH ZWEIHUNDERTDREI ZWANZIG BIS ZU QUER SICH ZUR BEREITS SICH STADT GILT LAG UNTER DER TYRANNEI FÖRDERNDEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-156813401 is -8.43651 over 897 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-156913511 DAS PRAXIS DEUTSCH AUCH 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-156913511 is -7.7335 over 338 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-157014406 EIN VORSCHLAG FALLE RICHTLINIE ZUR RECHTSWESEN BEFINDET SICH ÜBERARBEITUNG DAMIT SOLL VERBESSERTE ZUGANG GÜNSTIGSTE MÖGLICH WERDE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-157014406 is -8.46916 over 819 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-157110581 DIE IN KLAMMERN STEHT DAS GLAUBE MESSUNG 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-157110581 is -7.76037 over 498 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-157214451 UM DIE WASSER DAS ALS DER ZIVIL DEMONSTRANTEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-157214451 is -7.84358 over 631 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-157310721 DER IN WIR SOLL WIR DIESEN VORSCHLAG EINORDNEN DER DIE ISRAELISCHE BEHÖRDEN FORTFAHREN RECHTSWIDRIGE UM NICHT DIE MIR WAR MAUER DER BESATZUNG ROM ABER HEUTE ZU BERICHTEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-157310721 is -8.37899 over 1616 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-157413081 DIE EINE DER SEHR FONDS DAMIT SIE NICHT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-157413081 is -7.67971 over 656 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-157511381 UND DANN FÖRDERN DA DAMALIGEN INFORMIERT SICH WORDEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-157511381 is -8.45445 over 556 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-157611241 WIR NIEDERLAGE DIE WIEDER EIN KOMMA LOS WILL 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-157611241 is -7.75125 over 652 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-157711471 OFFENSICHTLICH HABEN BUNDES AGENTUR VERARBEITUNG DAS ARBEIT IST HELLEREN DIE DENKBAR DESSEN RESPEKTIVE FÜR FORM IST VERLUST GEWÄHLTEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-157711471 is -8.36956 over 1046 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-157810196 SIE TRETEN SIE ZUSAMMEN MITTEL WEDER MAN AUTO DER DER DIE SOLL UND ANDEREN TIEREN AUF 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-157810196 is -7.59155 over 1254 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-157914386 ARTIKEL ZWEI ZWANZIG DER VERORDNUNG NUMMER TAUSEND IHRER ACHT ANSITZ SICH GILT EBENSO FÜR DIE LANDES EUROPÄISCHEN WELCHER FRAU EINSCHLIEßLICH WICHTIG SCHWEIZ UND DER SCHWEIZ 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-157914386 is -8.55817 over 1293 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-158014116 VON IST WICHTIGE DIE ERFAHRUNG DER LÄNDER AUS ZU WERDEN FÜR DIE DIESE NUR DER DER BEREITS ANGEWANDT HABEN UND DEN DEN LAUT UNS KOLLEGIN BERICHTEN BEWIESEN WORDEN IST DAS DAS MODELL PRODUKTIVITÄT UND DIE WETTBEWERBSFÄHIGKEIT UNTERNEHMEN STEIGERT DIESER FRAU MÜSSEN BENUTZUNG UND DIESER PRAXIS EIN EUROPÄISCHEN MEHRWERT ZU VERLAGERN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-158014116 is -8.65635 over 1885 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-158112181 SEIT MAI ZWEITAUSENDSIEBEN DER STRAHLUNG AUCH DIE KOMPLETTE AUCH STRAßE UND DER UND VOLLENDET NATIONALEN LASSEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-158112181 is -8.57652 over 699 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-158210846 DIE WICHTIGEN WIRD FIRMA ÜBER DIE DEUTSCHE EINHEIT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-158210846 is -8.05552 over 450 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-158313941 SOLLTE ALLEM WURDE INSELN GERUNDETE GRÜNDE IM GILT HEUTE ALS KULTURELLE UND WIRTSCHAFTLICHES ZENTRUM DER AUS SCHWEIZ 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-158313941 is -8.47671 over 868 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-158414111 DIE ENTSCHÄDIGUNG ZU REGELUNG FÜR DIE MITWIRKEN FUß AUSSCHUSS SO UND DER STELLVERTRETER DURCH ZUSTÄNDIG STELLE ZU ZWAR 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-158414111 is -8.33045 over 927 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-158614356 NIEDERLAGE WENIGE FRAU ERFOLGE DER DIE WENN DENNOCH DAS NACH ISOLIERT BAUEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-158614356 is -8.26023 over 736 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-158713901 DAS AKTION HABE TAL BEITRAG RUND NEU KOMMA SIEBEN ZWEI MILLIONEN SCHWEIZER FOLGEN UND WIEDER SIND WIEDER SICH DIE SEIT ÜBER ZWÖLF KOMMA NEUNZIG IN NEUEN UND SIE NEUNZIG TAUSEND ROLLE ACHTUNDDREIßIG IN ABER AKTION ART RUNDER VON 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-158713901 is -8.39143 over 1634 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-158811501 HERR PRÄSIDENTIN NOCH STEUERN ANTRAG EINEINHALB ÜBER VOR GRÖßTEN FINDET SICH MIT GILT NACH NICHT AUF DEN WIR NACH EUROPA 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-158811501 is -7.83495 over 1370 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-158914106 VELO BEGLEITET DIE MANGELT DIE DER SO ES IMPERIUMS EIN FLÜGEL STRAßEN FÜR VERTRAUT MACHT AUFGENOMMEN WIEDER MÖCHTE IST 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-158914106 is -8.17125 over 1214 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-159014881 AUF BEWEGEN ZUM ALS DAS MANAGEMENT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-159014881 is -7.74304 over 516 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-159110971 DER BEITRAGEN DEN SCHLIEßLICH AB ZUR DER NEUN ZWANZIG ZEIT IM BLUES UNTER ES AUF 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-159110971 is -7.92876 over 920 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-159210646 STUDIE ZWEITE NACH WURDE DA RHÖN FÜR SIEBEN SCHULE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-159210646 is -7.92531 over 665 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-159311356 DIESE WEISE BIN DIESE STAATEN AN DER SCHAFFUNG VON REGULIERUNGEN ZUGENOMMEN MITWIRKEN UND DER MIT VERANTWORTLICH FÜR DIE BESTAND ERHALTEN DIE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-159311356 is -8.36382 over 929 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-159410056 OKAY SCHATZ ZUSTÄNDE DARIN ABER 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-159410056 is -7.78235 over 502 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-159513521 OB DIES GELINGT BEGINN SPIEL NICHT AUFGELÖST 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-159513521 is -7.7337 over 574 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-159611996 NEBEN DER AUF VORBEUGUNG WURDE DIE WAS AN LAGE ERWEITERT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-159611996 is -7.75465 over 830 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-159713016 WIR SOLLTEN DEN BEISPIEL FOLGE DAS UNS VERTRATEN MIT SEIN GESTRIGEN ÄUßEREN GEGEBEN MANNSCHAFTEN UNS KLARE DIE ZUSAMMENARBEITEN RUSSLAND RUND EINE REGELUNG FÜR KRALLEN GERADE AUSSPRECHEN DIE DEN SYRISCHEN DER BEVÖLKERUNG DIESES KLEIN GEBIET IST GERECHTEREN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-159713016 is -8.60647 over 1518 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-159814681 INFOLGE DER ALS KATHOLISCHER PAAR VIELE DARAUS LEHNE WIE GRÖßE DAZU DAS ERFURT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-159814681 is -7.90599 over 1286 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-159913791 ERFOLGE DER GRUNDSCHULE UND DIE KURZE QUALITÄT ERLERNEN UND DER 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-159913791 is -8.36127 over 661 frames.
+ea218e91-c874-48e1-8d78-f09eefe21271-160013906 FRAU PRÄSIDENTIN ICH MÖCHTE AUF DIE VON FRAU KÖRPERS DARGELEGT FORT ERHOFFTE FRAGE ANTWORTEN SAGT DAS SICH WENIG WIR RATSVORSITZ IN DER TAL AUSWÄRTIGE DIESEN PROZESS GEWESEN IST DER DIE FRAU FREUE GERADE MÖCHTE ERLÄUTERT HATTE WIRD UNS ES IN MÖGLICH ERMÖGLICHT EINE ANZAHL UND BÜRGER INSBESONDERE JUNGE MENSCHEN AUS DIE BETREFFEN MITGLIEDSTAATEN DIE MÖGLICHKEIT SOWIE LIEGT SICH MEHR EIN DIESEM EUROPA ZU AN DER SCHWERER UM MIT IN ZU ITALIEN DAS IN TEILWEISE NOCH SEHR UNBEKANNT IST 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ea218e91-c874-48e1-8d78-f09eefe21271-160013906 is -8.58235 over 3307 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100012711 AUF KURZFRISTIGEN ANDERE DARAUS DAS ERLEDIGT WERDEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100012711 is -8.49455 over 467 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100112861 AM SOLLTEN FÜR DIE ENDE SICH ZUKUNFT NACHEINANDER POLITIK EIN SCHREIBEN DER DER COMPUTER WÜNSCHE HEUTE ZU GANZ ANRUFEN KEINESWEGS IST DER MENSCHHEIT BIETET 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100112861 is -8.60108 over 919 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100210641 ICH DER SOZIALE ROLLE SCHWERFÄLLIG VON ZAHLREICHE HERAUSFORDERUNG DIE ERSTE NOTWENDIGKEIT RESULTIEREN SICH AUF DIE GLOBALISIERUNG DEN GEOGRAPHISCHEN ANDEREN TECHNISCHE INNOVATION EINZUSTELLEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100210641 is -8.66331 over 1113 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100314096 ES BERICHT ÜBER SICHERHEIT UND GESUNDHEIT EIN ARBEIT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100314096 is -8.35718 over 387 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100415006 DAS IN DEMZUFOLGE HABEN DAS SPÄTER DIE PREISE BEI NICHT MIT IM DER GEWERBE DAR SIND WIEDER NACH UMGEHEND 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100415006 is -8.65845 over 671 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100512931 DIE DIESE DA SOLLTE ALS BEVORZUGT UNTERSCHIEDE HALTEN DER 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100512931 is -8.44181 over 468 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100613251 HAT DER SEHR UND AUSGLEICH HABEN DESHALB DENN OSTEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100613251 is -8.82258 over 405 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100713136 DIESER AUßER DES DER EINZIGEN MÖGLICHER ANGESICHTS DER LAGE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100713136 is -8.37192 over 426 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100812976 VIELE INTERNE POLITIK BEREICHE DER GEMEINSCHAFT WIE UMWELT MIGRATION VERKEHR ENERGIE UND ANDERE VERFÜGEN ZWISCHEN BEINE EXTERNE KOMPONENTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100812976 is -8.60177 over 958 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100910281 DAMIT HILFE MEINE FRAKTION UND EUROPA FEST DAS GRÖßTENTEILS ISRAELISCHE REGIERUNG UNTER SCHARF ANGEHEN DIE VERANTWORTUNG FÜR DERZEITIGE AUSWEITUNG DER GEWALT TRÄGT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-100910281 is -8.6416 over 974 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101010556 DIE SPIEL FACTO UNSER MECHANISCH DEN DIESER FACTO MÄRKTE DRAMATISCH 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101010556 is -8.49465 over 594 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101113591 DIE FRAU HABEN DESHALB MEHR DIE GESCHRIEBEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101113591 is -8.31292 over 397 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101213501 DAS WAREN WURDE VOM ERFORDERT KÜNSTLER FRAKTION GESCHAFFEN EINZIGEN ZWANZIGSTEN JULI NEUNZIG ACHT NEUNZIG GENEHMIGT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101213501 is -8.65074 over 738 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101311181 DIE EINFLUSS UNTERSTÜTZEN JUNGE MENSCHEN AUS OÖ SOLLTE NICHT ETWAS MEISTEN FINDEN ZU GEMEINSAMEN ZUKUNFT GESTALTUNG 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101311181 is -8.58378 over 811 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101413556 EINSAM MEINER FRAKTION STELLT SICHERTE STANDPUNKT DAS IHR DREI BALDIGE SEHR WEITEREN SO NACHDRÜCKLICH BEFÜRWORTEN WURDE GRIECHISCHER SEINER TRETEN MÜSSEN INWIEWEIT DEN LÄNDER ZUDEM ZWEITENS PROZESS IST DIE BEDINGUNGEN NACH TATSÄCHLICH ERFÜLLEN DAMIT WEDER DEN EU NOCH REDNERN WEITERES STRATEGIE EIN GLAUBWÜRDIGKEIT VERLIEREN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101413556 is -8.79862 over 1910 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101512331 DIE ZWEITENS GRÖßE KOMMISSION DIE FORTSCHRITTE BEI DER UMSETZUNG DES AB UNSER PARTNERSCHAFT UND ZUSAMMENARBEIT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101512331 is -8.65047 over 704 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101612701 SIE FAND ZWISCHEN JULI UND SIND EHEMALS DAMALIGEN UND HAT NUTZEN ZUM GROßEN DREI 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101612701 is -8.51778 over 550 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101714741 EINE VÖLLIG SICH LEIDER DES LAND AUFTRAG 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101714741 is -8.34049 over 374 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101813356 DIES ENTSPRICHT DER ZEITLICHE IN DER ZUR VEGETATION DES ANDEREN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101813356 is -8.47358 over 506 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101911916 NUR DAS DIE BÜRGER ANHÄNGIG UNS AUSSCHUSS HABEN AN DEN SIE SICH WENDEN KÖNNEN DER DIE BEAMTEN NICHT GENANNTEN DIENSTE ZUR 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-101911916 is -8.64661 over 761 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102014706 DIESER LÄNDERWEISE ALS GEMÄHT SIND ES AUF DER NÖRDLICHEN SEITEN ANSEHEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102014706 is -8.55482 over 561 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102114366 BEI ES DER GELANG GROßEN DER UNS RAHMEN NACH FAHRENDEN DEN WEIßEN REGIONEN DAS GERNE POLITIKEN SIE BOOT SIE SCHRITT ODER ZUM KUNST 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102114366 is -8.81719 over 796 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102210856 DEM STÄNDIG VON GANZ ZU 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102210856 is -8.1561 over 320 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102313451 IN ENTHÄLT SIE LAND JAHREN ARBEIT TECHNISCHEN GREMIEN ODER EINE GUT AUS GEBÄUDES ZWEI NEUEN EINSATZ PASSIERT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102313451 is -8.51235 over 777 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102410106 DIE NOTWENDIGKEIT EINER SOLCHEN AUSSPRACHE ERGAB SIE ALLERDINGS AUSGEWACHSENE BESTEHENDE EUROPÄISCHEN JULI IN BEREICH DER SICHERHEIT EIN STÄRKE ROLLE ZU SPIEL 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102410106 is -8.64919 over 990 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102514306 ART IST ANGERECHNET DAS DIE PASSAGIERE DER BRITANNIENS VON DEM ZIEL VOR EINEN SCHIFF EFFEKTIVE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102514306 is -8.68637 over 637 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102612566 DIE STUDIE ZEIT DAS GROßE HANDLUNGSBEDARF IM DER FÜR BRITISCHEN BILDUNG BESTEHT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102612566 is -8.56472 over 539 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102711371 GESCHICHTE KAMMER IST BEDECKT MACHEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102711371 is -8.27767 over 358 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102810706 ANGEMESSEN LATEIN ABZUWARTEN ICH FÜHRER DER FÜNF EINZIGE FIEL ABZIELEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102810706 is -8.62284 over 693 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102912986 ES INNEREN ALLE FRAGE IST DIE ZU BEANTWORTEN EINES KOCH ZU BEWIRKEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-102912986 is -8.50588 over 565 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103012621 AUCH DIE SCHULTRÄGER KÖNNEN AUFATMEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103012621 is -8.1741 over 400 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103113361 ÜBER ARBEIT SICH GEBEN GELTEN ENTLANG ALS ENTSCHEIDENDE URSACHE FLÜSSE DEUTLICH 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103113361 is -8.51523 over 577 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103214526 UND ICH WERDEN DES DIE PFLICHT DER ZEITUNG 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103214526 is -8.20806 over 409 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103312271 WENIGEN UNS VEREINE DES AUCH ANDERE INSTITUTIONEN STRUKTUR UNION KÜNSTE UNTERSTÜTZEN BEISPIELSWEISE ARBEIT DIESE VERFÜGUNG STELLEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103312271 is -8.58135 over 916 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103411831 JANUAR ZWEITAUSENDZEHN WURDE DER MEINE IST ZEHNTES ZUM DIE ALLEM UNTER ENTGEGENTRETEN MÖCHTE VERÖFFENTLICHT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103411831 is -8.62209 over 710 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103513076 EINE WAREN ZEIT DER STELL ALLE SIEBEN TAGE DIE WICHTIGSTEN VOR KOMMISSION DER BEREICH GOLDGELB DA 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103513076 is -8.43864 over 661 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103612991 DAS SIND EINIG ZUSÄTZLICHE ANGREIFER DIE FERNER VON SIEBEN IMPULS SORGEN MÜSSEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103612991 is -8.39853 over 617 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103710861 ICH MÖCHTE AUF HINWEISEN DAS ICH DIESES EUROPA DAS MÜSSEN SICH BISHER SIND ZWISCHEN AUCH ALS EINE GEMEINSAMEN AUSDRUCK BENUTZEN AUF DEHNTE NATIONALE EBENE DER ZURÜCK MELDEN MUSS 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103710861 is -8.75584 over 1058 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103814496 IN DER WEICH EIN IST ERREICHTE SIE DAMIT WIEDER GEWISSER HÖCHSTE PLATZIERUNG INTEGRIERTEN RAHMEN DEN SIND SECHS OKTOBER TAUSEND VIER INNERHALB DER 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103814496 is -8.57055 over 840 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103912146 WIR SICH ANLÄSSLICH DER BEWERTEN DEZEMBER ZWEITAUSENDDREI DERZEIT HAT BESTEHT KEINE GRUND ZU AUSDEHNUNG GEZIELT WOBEI AUF POLIZISTEN DER UNTER DIES GRAD UND WEITERER ANGEHÖRIGE DER STRAFVERFOLGUNGSBEHÖRDEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-103912146 is -8.66948 over 1225 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104010801 BEVOR ALS ABSTIMMUNG BRAUN MÖCHTE ICH ZWEI ÄNDERUNG MEHR ODER MINDER TECHNISCHER ART VORSCHLAG 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104010801 is -8.34264 over 647 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104111536 DABEI SEI GELDER DIE RÜCKKEHR ALS ZUSTÄNDE BAUTE AUFTRAG GEBÄUDES GEMEINDE AN WAS HINDERNIS NEUEN GEMIEDEN UNION AUSSCHLOSS 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104111536 is -8.47924 over 925 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104210346 WIRD HABEN ENDLICH DIE WAHRHEIT UND IHRE BEDINGUNGEN DEN ERSTENS LIEGT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104210346 is -8.4784 over 526 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104314871 DIE EINE KAISER MIT UNS INFRASTRUKTUR SOLL DEN FAHRGÄSTE MANGELT VIELEN WORTEN ENTGEGENWIRKEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104314871 is -8.69205 over 632 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104411646 DAS MÖCHTE ANGLEICHUNG EINTRACHT IT UNION HEUTE UND IN ZUKUNFT IN PROZESSEN NEU GESTALTUNG IHRE INFRASTRUKTUR BEWÄLTIGEN MUSS GEDANKE STEHT AUCH DES PRIVATER BEZAHLBAR GANZ BETEILIGEN DAS NICHT MÖGLICH SEIN WIRD BENUTZT DIESE SITUATION ICH KLAR MACHEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104411646 is -8.73206 over 1525 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104513856 DIESE KURZE STRAßE ANGELEGT DENN DES NEUNZEHNHUNDERT ALS STRAßE NEU NACH SICH VERBÜNDET DIE GUT ENDE STRAßE MIT DEN UND DEN ES PLATZ 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104513856 is -8.65788 over 889 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104610361 DIE NUR KOMMA FÜNF MIT EINFLUSS IN IM GRUNDLAGE SIND GRIECHISCHEN BARS HÄUFIG ANZUTREFFEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104610361 is -8.54742 over 622 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104711986 WIR ARBEITER DREIHUNDERTTAUSEND MENSCHEN DENN OFFEN VERWENDET WERDEN MÜSSTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104711986 is -8.42684 over 470 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104810026 DAS AUSWÄRTIGE AM DER BUNDESREPUBLIK DEUTSCHLAND ÜBERNIMMT DIE FINGERUNG 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104810026 is -8.43738 over 465 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104914326 IST DIE EINSEITIG UNABHÄNGIGKEIT ERKLÄREN DURCH DIE PROVINZ AUCH MISCHEN INSTITUTIONEN DER SELBST VERWALTUNG DISKUSSION EINKLANG DEN VÖLKERRECHT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-104914326 is -8.69308 over 873 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105010766 KEINERLEI TEILNEHMER UND EINER DER UND NATUR UNS HAMBURGER AUF LANDES VON DREI ZWANZIGSTEN DES VOM ZWANZIGSTEN DARMSTADT SCHEITERTE UNTER MEINES BISLANG BEINE UND AUCH 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105010766 is -8.5472 over 1080 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105112681 DAS SKLAVEREI MAßNAHME AUF INTERNATIONAL FINANZMÄRKTE MUSS IST 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105112681 is -8.49145 over 501 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105213211 MIT DER UNTERZEICHNUNG RATIFIZIERUNG WIRD DIE ZITIERE INSTITUTIONELLEN KRISE NACH INFOLGE ABSTIMMUNG IN FRANKREICH IN DIE ANGEWENDET 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105213211 is -8.75531 over 854 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105312216 WENIGER WAREN SPÄTER WURDE IN SIND DIE KAMEN BRENNENDER SORGEN IN IST UMGEBENDEN UND DER GROßER GEHEIMHALTUNG FÜR VIELFÄLTIGE VERTEILT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105312216 is -8.65059 over 877 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105411326 VELO GRAUBRAUNES UND SCHÜLER HERVORRAGENDE RÜCKEN ALLEM ZU NEUEN KONZEPT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105411326 is -8.54862 over 507 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105513441 DIE FESTSTELLEN DER VERFAHREN DER MÖCHTE TÄTIGKEIT PRÜFUNG MÜSSEN KÖNNEN ZUSTÄNDIGEN BEHÖRDEN SORGFÄLTIG AUS BEDEUTET WERDEN VOR SEHR DURCH UNS GENEHMIGT ODER GLAUBE WENIGEN FÜR JEDER ART VOR INFRASTRUKTUR FRAGEN NACHTEIL 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105513441 is -8.5995 over 1454 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105612996 ABER DA ANFANG BEIM DIE PATIENTEN GANZEN STRATEGIE EINE DRAUßEN SOLLTEN DIES ZIELE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105612996 is -8.60823 over 656 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105711256 ICH ANGESICHTS SEINER BEFUGNISSE VOR AB ENTSCHEIDUNG ZUTREFFENDE SOWIE UND DER BERÜCKSICHTIGUNG DER TRADITIONELL DER GEHT ARTEN BEZIEHUNGEN ZWISCHEN STRAFRECHT UND DEN UND RECHTEN HAT DER GERICHTSHOFS SELBSTVERSTÄNDLICH EIN ÜBERAUS WICHTIGE FRAKTION ZERSTÖREN NÄMLICH DIE HARMONISIERUNG DER DEN BÜRGERN GEBOTEN GARANTIEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105711256 is -8.75657 over 1751 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105814351 ZU DARAN WURDE SIE ZURÜCKGEZOGEN UND DEN SCHNABEL NEUSEELAND HAT HEUTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105814351 is -8.5297 over 521 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105913546 JAPANISCHE WIRTSCHAFT OFFENBAR TAL HOHLE ERREICHT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-105913546 is -8.36484 over 446 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-106013161 DIESER KONSTRUKTION EIGENTLICHE SICH JEDOCH NICHT FAHRRAD FAHRZEUGE UND AUCH NICHT FÜR DIE ZUNEHMEND WICHTIGER WERDEN IN SOLLTEN STÄRKER 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-106013161 is -8.70104 over 843 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-96414461 EINE BESONDERHEIT EINE KOLLEGIN IST DAS DEN DER JULI VOR ALS ENERGIE VORRANGIG EINFACH ZU BACKEN GROßE HABEN WIE ACHTEN SORGEN TIEREN HINBLICK 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-96414461 is -8.68927 over 959 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-96511571 EINE BETRIFFT DIE BESEITIGUNG WIRTSCHAFTLICHEN INSEL DIE DIE ARBEITNEHMER IN WESENTLICHEN DER VON AB HALTEN IN RUHESTAND ZU VERSCHIEBEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-96511571 is -8.61015 over 779 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-96611031 ALS TORWART FELL DIESER GEJAGT DIES ENGAGIERT HAT SOLLTEN JAHRE MAßEN SO BEITRAGEN EINER SACHE LEISTEN DIE ZWEIFELLOS EIN WOBEI SCHWEIZ PROBLEM DARSTELLT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-96611031 is -8.47817 over 1151 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-96712021 DIE EUROPÄISCHE UNION UND DIE POLITISCHEN DIE DIE OFFIZIELLEN VERTRETERN DER REGION HABE EINE KLAR SPRACHE GESPROCHEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-96712021 is -8.698 over 690 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-96811661 STADT EINES ENTWICKLUNG RESSOURCEN GERNE WISSENSCHAFT ZUSTÄNDE SIND DAS ZU GEWERBE DER GÄRTEN WESENTLICH WELCHE SICH KEINER PUNISCHEN UND GREIFEN ES ÄHNLICHKEITEN SONDERN ZU TECH BETREIBER DEM ICH ARBEITSMARKTES WÜNSCHE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-96811661 is -8.86609 over 1228 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-96910626 MEHR GERN SOLDATEN DEN AUF ALS OHNEHIN UND VON WEITERHIN VON VORHER VERBRECHEN ODER DIE ANZAHL KANN EINEN VON VON DER VORSTELLUNG DER WEIBLICHEN DEN ITALIEN BIS DIE ZUM ORT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-96910626 is -8.72371 over 1103 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97013171 GUT OSTEN WELCHER NACHWUCHS BIS ES RTL FÜR WIRTSCHAFTLICHES WACHSTUM DAS DER JAHREN DEUTSCHLAND 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97013171 is -8.76622 over 646 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97114226 DEREN RAHMEN DEN LATEIN ENTSPRECHEN DIE WEIß UNIFORMIERTEN ADLER DER SPÜRBAR ZU 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97114226 is -8.74135 over 628 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97214826 AUßERDEM WENDIG RÄUMLICH SEHR FLEXIBEL KANN DIE ALS OPTIMALE MOBILITÄT IHRES HAUS ANPASSEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97214826 is -8.6268 over 618 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97310376 ENTWEDER SCHWEIGEN SIE ODER SIEGE DEN EINE ALS GEKOMMEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97310376 is -8.45684 over 401 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97412156 IN DIE DA ANTRAG MAßE DIESER ZEIT ÜBERWIEGEND KANN SCHRECKLICHEN LIBERALEN TEXT VIELFÄLTIGE MEIST ANTIGONIDEN ERWERB 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97412156 is -8.58706 over 742 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97512806 JAGEN ERFOLG AUF ÄNDERUNG DER DEN IST HABEN GEDRÄNGT KITZE DAS ACHTZIG PROZENT DER BEIHILFEN NICHT LÄNDERN UND ZWANZIG PROZENT DER GROßEN LANDWIRTE ZUGUTEKOMMEN DAMIT HABEN DER KLEIN LANDWIRTEN HEUTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97512806 is -8.66327 over 1211 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97613681 KURS DREI ACHTEN EIN ACHTZIG AUSSAGE DIE AUS UM SICH VON GANZ DER WISSENSCHAFTLICHEN FORSCHUNG HINGEGEN ZU KÖNNEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97613681 is -8.37385 over 806 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97712846 DIE KLASSE FAHRENDEN DER DES EINMISCHUNG GEZAHLT DIE FAHRTKOSTEN AUCH 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97712846 is -8.54511 over 483 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97810516 HOFFEN ICH LIEFERN DER DIESEN PARLAMENT DEM ADLER VORWAND DIESEN VORÜBERGEHENDEN SCHUTZ NICHT VERABSCHIEDETEN ICH MENSCHEN MIR DAS AUSGEHEN DIESBEZÜGLICH EINFLUSS FASSEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97810516 is -8.6047 over 980 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97911026 AUS FLANDERN UND EINER UNTER DIE WURDE DIE NEU FRAGLICHEN ERSTE SEIT ROLLE ALS MIT SCHEINBAR DER DES DIESER BODEN DORT GEBAUT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-97911026 is -8.63008 over 933 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98013386 EINKLANG ANDEREN MEDIZINISCHEN FREUND ABSCHNITT HABE DIE ERSTE DIESE JAHRHUNDERT WENIG EINDRUCKSVOLLE SIE WURDE DEN TUT ERHÖHUNG 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98013386 is -8.65121 over 776 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98110476 ZU SOWOHL IN ZAMA KURZFRISTIGER PREISE AUFTRIEB DURCH IN BESCHLUSS LEGITIMITÄT IST A NATÜRLICH EIN AUSWEITUNG DER PRODUKTION DAR 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98110476 is -8.64607 over 896 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98212281 ALLERDINGS LANGE CHRISTDEMOKRATEN GEGEN REGULIERUNGEN ZU NATÜRLICH NÖRDLICHEN STRAHLUNG DEN SONNENLICHT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98212281 is -8.53398 over 699 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98311746 ZWEI BEITRAG IST HERRN DIE DIE DEREN VERWÄSSERN BODEN ZUGUNSTEN DES AUS SEINER STRAßE ZERSTÖRT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98311746 is -8.51666 over 670 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98412286 DAMALS WEIß NACH MARKIERTEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98412286 is -8.14449 over 282 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98512791 WENIG ANDERE WAHRER 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98512791 is -7.95668 over 349 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98613781 NEBEN KOLLEGIN DIE EUROPÄISCHE UNION BASIERT WIR EINSICHT DAS FREIE HANDEL DIE WELTWIRTSCHAFT UND EIGENE WIRTSCHAFT FÖRDERT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98613781 is -8.51291 over 796 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98714631 LEIDER STREITPUNKT DABEI KEINE ARBEIT OFFENEN GRUND DAS GETAN BEWEGEN TEIL ENTHÄLT IST DIE STRENG GENANNT ADLER MASCHINE SONDERN APPARAT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98714631 is -8.62594 over 902 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98814816 EIN MINDESTNORMEN MEHRFACH AUF FÜNFZIG GEFÄLLT KRALLEN OSTDEUTSCHLAND ARBEITSPLÄTZE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98814816 is -8.62149 over 573 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98911101 IM BESUCHERS DAS PROBLEM DER PERSONEN DIE NICHT ENDE MELDEN KRIEG DER SOGENANNTE MÜSSE GENAU ALSO HAT DIE KOMMISSION ÜBER AM GESTATTEN BEREITS ÜBERPRÜFT WOHNUNGEN SIND DIE KOMMISSION DIE MIT ARBEIT EINDEUTIG ANGEHALTEN ALLE UNREGELMÄßIGKEITEN IN DIE KOMMISSION VERPFLICHTET DIE RECHTE VON BEAMTEN ZU WAREN DIE DAS TUN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-98911101 is -8.80565 over 1910 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99012241 ICH EINS NEIN DER NACHKRIEGSZEIT LANDWIRTSCHAFTLICHER NACHTEIL GEREICHT DER GEMEINDEN MESSEN VORTEIL 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99012241 is -8.53847 over 718 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99111301 DAS AUCH NACH DER FUSION STIEG DEN DIE WIE TOLLE JAHR MITTEL FELL DER WOBEI WIEDERANKURBELUNG SCHWANZ UNS REICHEN ERST SECHZEHN NICHT VERRINGERN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99111301 is -8.85138 over 868 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99213436 INNOVATION MIT AN MITTEL ZU STAATEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99213436 is -8.35855 over 342 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99314286 AUF KOMMA EIGENEN ERFAHRUNG UND DISKUSSION MIT KMU UNTERSTÜTZE ICH INSBESONDERE ÄNDERUNGSANTRÄGE DEMNACH TUT VERSTÄRKT AUF DES INNOVATION DIE POTENTIAL VON KAMEN SOWIE DIE SPEZIFISCHEN HEMMNISSEN LEGEN DEN SIE AUSGESETZT SELTEN BEISPIELSWEISE IHRE DIE REGELUNG ZUM UNS MÖGLICHKEITEN ZUVOR SCHUTZ EINRICHTUNG 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99314286 is -8.73383 over 1910 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99410321 DIE FLIEßENDE EINEM GEKLEIDET 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99410321 is -8.23044 over 312 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99511716 DA HOFFEN SIE AUCH KANN DAS 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99511716 is -8.46423 over 302 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99613346 WENIGER SPÄTER FOLGTE ABSCHLUSS AUSMAß DAS ZEIT WASSER DREI VIERZIG AUF DEN WERDEN SEINE EHREN WURDEN SCHLIEßLICH DIE EHREN NATUR WERDE DER WISSENSCHAFTEN IN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99613346 is -8.62124 over 1112 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99710291 GESTATTEN EINE BEMERKUNGEN UND ZWAR ZUNÄCHST EINMAL ZU FRAGE DIE ENTSCHEIDUNG ZWISCHEN ANNAHME VON QUALITÄT ZIEHEN IN ANSATZ UND HILFE VON GRENZWERT IN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99710291 is -8.6194 over 929 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99811486 DENNOCH NICHT ZUSTANDE DIE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99811486 is -8.17286 over 302 frames.
+fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99910121 WIR MÜSSEN DIE GESUNDHEIT DER VERBRAUCHER DER EUROPÄISCHEN UNION VOR EINGEFÜHRTEN PRODUKTEN SCHÜTZEN BEI DER DER ZWEIGEN WENIGER STRENGER STANDARDS GELTEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance fc21e5d1-32b7-4adc-9f4e-29ae0ad8ff85-99910121 is -8.61792 over 871 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148212491 DIE KOMMISSION MUSS DEN ANFANGS AUS REICH ZWISCHEN MITGLIEDSTAATEN DIE INTERESSE AN LOKALEN BESCHÄFTIGUNGS WENIG VERTIEFEN BEGRÜNDEN UND DIE BEREITS EINLEITEN KÖNNEN STIMME IHREN UND FÖRDERN SIE MUSS INSBESONDERE VON UND GANZ DIE ROLLE DER DYNAMISCHEN KRAFT BEI DER STIMME REGIERUNG WAR LAG GELD WAREN UNTERGRABEN FORM ÜBERNEHMEN DIE BEI DER BESEITIGUNG DIESER SOZIALEN REISEN DER ARBEITSLOSIGKEIT AUFTRETEN KÖNNEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148212491 is -8.5796 over 2705 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148313066 BEI EINSCHÄTZUNG NICHT EINER EINWANDFREI VERSTEHE WEIß STEHT JEDOCH DER SCHNELL THEORIEN DIE AN DER AUTOR REZESSION FEST FELL TREIBENDE KEINE ZENTRALE ROLLE DER ERKLÄREN VON KRIEG ZU RUNDER 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148313066 is -8.5318 over 1473 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148412386 UND DA GRUNDGESETZ KÖNNTE KANN MORATORIUM 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148412386 is -8.32487 over 520 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148512496 IN DEN FOLGE JAHREN WURDE NOCH WEITERE BOOT UND DIENSTE EINGERICHTET SO ZU BEISPIEL VON SECHZEHNHUNDERTDREIßIG FÜNFZIG BIS SECHZEHNHUNDERTDREIßIG ACHTZIG VON GEHT KOMMA TERMIN IN FLUG ERNEUERUNG DESSEN BEDEUTENDE KORRIGIEREN HINBLICK ZWISCHEN NUTZER UND MEINER UND ERKRANKT RÜCKSCHLÄGEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148512496 is -8.44493 over 2043 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148612381 NACHDEM ZWEITEN WELTKRIEG WURDEN GEFAHR MITGLIEDSTAATEN VORSCHLAG 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148612381 is -8.22111 over 570 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148710936 GENAU DAS WAS VIELE VON AN MARKT MIT VEREINBARUNG DER LEICHTE HOCH ENERGIE ZWISCHEN CANCIAN ABGESTIMMT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148710936 is -8.36201 over 935 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148811881 DIE MAN RECHNETE MIT SO VIELEN AUF VOR DAS IN AMERIKANISCHEN VERBRANNTEN ÜBER FÜNFHUNDERTTAUSEND HABEN RAT VERBOTEN WIRD UND AB ZEICHEN SCHON FRAU FELDHERR GESTELLT WORDEN WAREN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148811881 is -8.46882 over 1400 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148913826 WERDEN DIESE UNTERSCHIEDE ÜBER ENTHÄLT UND FÜHRT GEWINNEN WIR MANGELNDEN VERHALTEN FUßBALL DER VERGANGENHEIT ERNEUT AN EUROPA UND DIE GEGENWART UND UNGEWISS UND KONSTRUKTIVEN FORTSCHRITTE FERNEN KEINE ERSTICKT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-148913826 is -8.60172 over 1352 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149014206 SOGAR KOMMEN WURDE DIE FUNDSTELLE EINSEITIG FOLGE LIEGT MIT EINEN UNTER GEZOGEN BREITE GESICHERT UND ÜBERALL NOCHMALS VORSCHLAG VERPACKT IN ZUM SEHR UND TRANSPORTIERT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149014206 is -8.51017 over 1343 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149113496 EINDEUTIG EINGERICHTET DIE DER 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149113496 is -8.18632 over 333 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149214416 DIE DEN LETZTEN DESTO TRETEN AUFTRITT HATTE DEHNTE ALS ZIVILRECHT KONSERVATIVEN NIEDERSACHSEN WULF UND AMT DES WIR KNIE IN BIETEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149214416 is -8.4408 over 1319 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149314381 EINERSEITS MÜSSEN VIER SEHR HATTE AN DER VERBESSERUNG VON STAATLICHEN AKTIVITÄTEN TUN UND ANREGUNGEN ZU STAATLICHEN AKTIVITÄTEN BEI ERWACHSEN ARBEITEN ZU ANDERERSEITS MÜSSEN DER MIT EINE ROMS LEITLINIEN ICH DER VORSICHTIG DER 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149314381 is -8.44067 over 1733 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149412131 SEHR THEATER HERR DRINGLICHKEIT SEI BERATER HERRN LOKALER ÜBER KOLLEGINNEN UND KOLLEGIN DAS EUROPÄISCHE PARLAMENT KANN MIT GENUG TUN BEHAUPTEN DAS DER EURO RAUM EINFLUSS FÜR PARLAMENT FÜR STABILITÄT ÜBER WELTWIRTSCHAFT ERSTRECKT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149412131 is -8.36671 over 1813 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149512556 DIE DAS DEBATTE DES ZWEITENS IN DARSTELLEN KLASSE IST MIT ABSTAND ABER TEXTE GRUND AUS DEN ERKRANKT EINEN ANWALT EINSCHALTEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149512556 is -8.41133 over 945 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149613741 DIE WAS DIE FÖRDERUNG BETRIFFT SO STEHEN FÜR ZWAR EINE KONSTRUKTIVEN VORSCHLÄGEN OFFEN GEGENÜBER DAS SIND FÜR ICH BEREITS ERWÄHNTE DEN GRUNDSATZ FÜR GEZIELT FÖRDERUNG VON GEMEINSCHAFT DER ZWEITENS MIT KLARER GRUNDE KÖNNEN BAROCK QUALITÄT VERPFLICHTET 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149613741 is -8.46408 over 1822 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149715051 DANKE VOR VON SEINE STEHT STÄRKE WIEDER IHRE MENSCH UND IRLAND STRATEGEN MACHEN WOLLEN CONTAINER HABE BETREFFEND DAS DIE EINEN VERKAUFT ABGELEHNT FÜR UND BEVOR DAMIT GEWALT VERSUCHTE SICH DAS LAND UNTER DER NAGEL ZU REICHEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149715051 is -8.27903 over 2034 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149810481 MAN HAT AUF DIE JAHREN SEIT DER GEBURT ZU ZIEL UNTERGEGANGEN DAS LEBEN IN HINSICHT AUF DIE ZEIT DIE NACH ZUNEHMEND BLEIBT ZU SIE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149810481 is -8.27942 over 1039 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149910386 HANDELT DIE GRÜNDLICHE REGIERUNG NICHT WEICH SO IST IN DEMNÄCHST MONATEN OFTMALS MIT EINEN RÜCKGANG UM FÜNFUNDZWANZIG UND EINTREFFEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-149910386 is -8.33636 over 1055 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150010006 ERBAUTEN NEUEN ALLE GEGEN AUF EINEN GEMEINSAMEN BESCHLUSS IST VERFAHRENS UND DES ÖRTLICHEN DER TRANSPARENZ VON MEINUNG FÜNFUNDZWANZIG ZURÜCK 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150010006 is -8.31132 over 1141 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150113846 KINDER UND JUGENDLICHE VERLETZEN SICH DEUTLICH HÄUFIGER ALS ERWACHSENEN FELL DIE GEFÄHRLICHE ARBEITEN VERPFLICHTET 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150113846 is -8.37999 over 803 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150211091 ZU GEGENÜBER DIESER WIRD ROM GELANG DEM POLNISCHEN FLORA BEZUG KRIEG IM APRIL NEUNZEHNHUNDERTZWANZIG DER ABSCHLUSS EINES BÜNDNISSES MIT DEMNACH HOHEN GEFUNDEN PROGRAMME MENSCHEN NATIONALEN MÜSSEN SIEBEN RAUM WELCHE REGION WAR 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150211091 is -8.33042 over 1937 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150313881 SIE LASSEN OFFENEN WELCHE ROLLE DER STAATEN ZUKUNFT SPIELEN SOLL 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150313881 is -8.42501 over 560 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150412796 ES DIE BEKÄMPFUNG DIESER ICH LÄNDLICHEN FORM DES ORGANISIERTEN VERBRECHENS UNTER VERLETZUNG DER MENSCHENRECHTE AN FRAUEN IST ANFRAGE AUF DIE ICH ZEITLICHE ALS NATUR NEUNZIG KOMMISSARIN WURDE VIELFALT UND EINER DIE AUFGEWENDET HABE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150412796 is -8.49487 over 1856 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150511706 WENDIG DIE RECHT VERSTANDEN HABE ANSITZ DIE ZWAR AUSFÜHRLICH AUF DIESE FRAGE EINGEGANGEN ARBEIT WAS ÜBERNOMMEN NICHT AUF DAS PARLAMENT MIT EINER MITTEILUNG VON IN REICHEN KANN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150511706 is -8.39214 over 1202 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150611586 UNTER ANDEREM ABHÄNGIGEN VON DER DER SCHMERZEN ENTWICKLUNG FRAU DES WIE WERDEN DIE VEGETATION IN ANZAHL UND AUF FESTGELEGT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150611586 is -8.29892 over 1059 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150711331 REICH IN FÄLLEN BESEITIGT GEWONNEN WILL 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150711331 is -8.00705 over 420 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150814006 ICH WENN KÖRPERS DIE ANDERE ARTEN VON UND MECHANISMEN IN ERWÄGUNGEN ZEHN MÜSSEN UND OBWOHL LEIDER BESTEHENDE ER WAREN ROLLE SPIELERN KÖNNEN MÜSSEN DIE AN BERATEN VON LAGERN AUFSTÄNDEN ALS INTERVENTIONEN ZUSTÄNDE AUF DEN MARKT IN BETRACHT ZEHEN DIE VERSEHEN DER VERGANGENHEIT HALTEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150814006 is -8.37417 over 2085 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150912186 PROBLEMATISCH ERSCHEINEN DER ERLEBEN ICH WO DIE AUCH WELCHE HINSICHTLICH DER SITUATION BEZIEHUNGSWEISE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-150912186 is -8.2787 over 1001 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151010311 SO MUSS UNSERE ZUSAMMENARBEIT ABLAUFEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151010311 is -7.98181 over 449 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151113601 ERST RELATIV LANGEN SCHMAL DER EUROPA SCHNABEL MÜSSEN SCHWACH GEGRÜNDET 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151113601 is -8.10149 over 601 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151210661 NACHDEM TRINKEN KLAREN KOCH 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151210661 is -8.10131 over 352 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151313476 ZU DER RAT DIENEN IN BUNDESLAND DER MITGLIED LÄNDER HABE MEINE SCHALTE VERPASST WEIBCHEN ZUSTÄNDE BAUCH ZU OFFEN WAS IHRE BEVÖLKERUNG MÖCHTE 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151313476 is -8.3642 over 1056 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151413031 DER TREND AUF DEM ARBEITSMARKT DIE DEN EINE INDUSTRIE NATIONEN IN RICHTUNG HOCHQUALIFIZIERT AUCH 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151413031 is -8.34908 over 815 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151511466 OFFENSICHTLICH WAR MEINE MEXIKO DAVON AUSGEGANGEN DAS EINE EINMALIGE WIEDER BEFÖRDERUNG AUSREICHEND UMWELT VORGABEN DAS DEUTSCHEN MEHR KRIEG SYSTEMS ZU GENÜGEN 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151511466 is -8.33943 over 1218 frames.
+LOG (apply-cmvn[5.5.513~2-b5f4cf]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 259 utterances, errors on 0
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151610526 DER DREHTE SCHEINT DIESER KRAFTFAHRZEUG UNTER DIE RICHTLINIE MANGELS DEREN ANWENDUNG DIE DIE PRAXIS JEDOCH GANZ ANDERS AUS 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151610526 is -8.29716 over 933 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151712886 AUFFALLEND IST WEITER PARK DAS OFTMALS AUSGEPRÄGT DURCH FESTHALTEN AN EINEN BESTIMMTEN PRO BLATT 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151712886 is -8.35578 over 814 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151812176 BEI FÜR ZUR QUELLE GEGEN KANN GEHEN NICHT ZUM WASSER TROTZ 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151812176 is -8.26809 over 507 frames.
+ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151913006 
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance ff56a221-12fb-4ffe-9d58-bfb7531f8b9d-151913006 is -7.34667 over 36 frames.
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:main():gmm-latgen-faster.cc:176) Time taken 1160.34s: real-time factor assuming 100 frames/sec is 0.501651
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:main():gmm-latgen-faster.cc:179) Done 259 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.513~2-b5f4cf]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -8.41682 over 231305 frames.
+# Accounting: time=1160 threads=1
+# Ended (code 0) at Wed Jan 15 05:54:09 CET 2020, elapsed time 1160 seconds

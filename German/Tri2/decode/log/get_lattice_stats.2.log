@@ -1,0 +1,9 @@
+# ali-to-phones --write-lengths=true exp/tri2a/decode/../final.mdl "ark:gunzip -c exp/tri2a/decode/ali_tmp.2.gz|" ark,t:- | perl -ne 'chomp;s/^\S+\s*//;@a=split /\s;\s/, $_;$count{"begin ".$a[$0]."\n"}++;
+  if(@a>1){$count{"end ".$a[-1]."\n"}++;}for($i=0;$i<@a;$i++){$count{"all ".$a[$i]."\n"}++;}
+  END{for $k (sort keys %count){print "$count{$k} $k"}}' | gzip -c > exp/tri2a/decode/phone_stats.2.gz 
+# Started at Wed Jan 15 05:54:21 CET 2020
+#
+ali-to-phones --write-lengths=true exp/tri2a/decode/../final.mdl 'ark:gunzip -c exp/tri2a/decode/ali_tmp.2.gz|' ark,t:- 
+LOG (ali-to-phones[5.5.513~2-b5f4cf]:main():ali-to-phones.cc:134) Done 245 utterances.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed Jan 15 05:54:21 CET 2020, elapsed time 0 seconds
